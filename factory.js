@@ -11,3 +11,15 @@ app.factory('homeFac', ['$http', function ($http) {
 		}
 	}
 }])
+	.factory('totalMoney', ['cartServ', function (cartServ) {
+		return {
+			allMoney : function () {
+				var money = 0;
+				cartServ.getGoods().forEach(function (item) {
+					money += (Number(item.cprice)*item.count)
+				})
+				return money
+			}
+			
+		}
+	}])
