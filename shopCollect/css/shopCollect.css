@@ -1,0 +1,151 @@
+@charset 'utf-8';
+html,body{
+	font-family:PingFang-SC-Regular,Helvetica Neue,Helvetica,Droid Sans Fallback,microsoft yahei,sans-serif
+	
+}
+header{
+	position: fixed;
+	height: 1.375rem;
+	width: 100%;
+	position: relative;
+	border-bottom: 0.015625rem solid #e5e5e5;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+header span{
+	display: inline-block;
+	font-size: 0.5625rem;
+	color:#4a4a4a;
+	line-height: 1.375rem;
+	font-size: 0.546875rem;
+	text-align: center;
+	font-size: 0.5625rem;
+	position: relative;
+}
+header span:nth-of-type(3){
+	font-size: 0.4375rem;
+	text-align: right;
+}
+header span:nth-of-type(1) a{
+	display: inline-block;
+	width: 0.75rem;
+	height: 0.875rem;
+	position: relative;
+	left: -0.859375rem;	
+}
+
+.redBorder{
+	border-bottom: 0.0625rem solid #ff464e;
+}
+.redCorlor{
+	color: #ff464e;
+}
+.Padding{
+	padding: 0.15625rem 0 0 0.15625rem;
+}
+.PaddingRight{
+	padding-right: 0.15625rem;
+	padding-bottom: 0.109375rem;
+}
+.clearPadding{
+	padding-left: 0;
+	padding-right: 0;
+}
+.hr{
+	height: 0.3125rem;
+	background-color: #f8f8f8;
+}
+.borderRight{
+	border-right: 0.015625rem solid #ececec;
+}
+.borderBottom{
+	border-bottom: 0.03125rem solid #ececec;
+}
+.borderTop{
+	border-top: 0.015625rem solid #ececec;
+}
+.borderLeft{
+	border-left: 0.015625rem solid #ececec;
+}
+nav{
+	height: 1.25rem;
+}
+nav>section{
+	text-align: center;
+	line-height: 1.25rem;
+	font-size: 0.4375rem;
+	color: #333;
+}
+.shopLogo{
+	padding: 0.421875rem 0;
+	height: 2.03125rem;
+}
+.shopLogo .shopName{
+	font-size: 0.4375rem;
+	font-weight: 6.25rem;
+	color: #4a4a4a;
+}
+
+.sellWay>span:nth-of-type(1){
+	font-size: 0.3125rem;
+	display: inline-block;
+	margin-top: 0.078125rem;
+	background: #f70;
+	color: #fff;
+}
+.sellWay span:nth-of-type(2){
+	font-size: 0.3125rem;
+	display: inline-block;
+	margin-top: 0.078125rem;
+	margin-left: 0.15625rem;
+	background: #ff464e;
+	color: #fff;
+}
+.specialLogo{
+	padding: 0.421875rem 0.265625rem;
+	height: 1.921875rem;
+}
+.specialLogo p:nth-of-type(1) span:nth-of-type(1){
+	color: #fff;
+	background: #ff464e;
+	display: inline;
+	width: 1.171875rem;
+	font-size: 0.3125rem;
+}
+.specialLogo p:nth-of-type(1){
+	height: 0.515625rem;
+	position: relative;
+}
+.specialLogo p:nth-of-type(1) span:nth-of-type(2){
+	color: #4a4a4a;
+	/*font-size: 0.625rem;*/
+}
+.specialLogo p:nth-of-type(1) span:nth-of-type(3){
+	color: #7a7a7a;
+	text-align: right;
+}
+.specialLogo p:nth-of-type(2) {
+	color: #ff464e;
+}
+.specialLogo p:nth-of-type(3){
+	padding: 0.3125rem 0  0.46875rem 0;
+}
+.specialLogo p:nth-of-type(3) span{
+	padding-left: 0.15625rem;
+}
+.specialLogo p:nth-of-type(3) span:nth-of-type(4){
+	padding-left:0;
+}
+.clearboth{
+	clear: both;
+}
+
+.more{
+	height: 1.40625rem;
+	text-align: center;
+	line-height: 1.40625rem;
+	color: #666;
+	font-size: 0.4375rem;
+}
