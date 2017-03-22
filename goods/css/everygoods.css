@@ -102,5 +102,21 @@ text-align: left;
 .bottom{
 	height: 1.208333rem;
 	width: 10rem;
+	margin-bottom: 2.777778rem;
+}
+.bottom img{
+	float: left;
+}
+.bottom img:nth-of-type(1){
+	width: 1.888889rem;
+	height: 1.208333rem;
+}
+.bottom img:nth-of-type(2){
+	width: 2.083333rem;
+	height: 1.208333rem;
+}
+.bottom img:nth-of-type(3){
+	width: 5.986111rem;
+	height: 1.208333rem;
 }
 
