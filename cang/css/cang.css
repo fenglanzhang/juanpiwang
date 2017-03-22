@@ -1,0 +1,89 @@
+/*header*/
+body{
+	background-color:#f7f7f7;
+	height: 100.0rem;
+}
+.bg{
+	background-color: #FFFFFF;
+}
+.life_content header{
+	height:1.12rem;
+	width: 10.0rem;
+	text-align: center;
+	border-bottom: 0.026667rem solid #f1f1f1;
+}
+.life_content header span{
+	width:8.266667rem;
+	height: 1.12rem;
+	display: inline-block;
+	line-height:1.12rem;
+	font-size: 0.533333rem;
+}
+.life_content header a{
+    margin-top: 0.266667rem;
+	display: inline-block;
+	width: 0.533333rem;
+	height:0.533333rem;
+	background: url(../../img/1.jpg)  no-repeat left center;
+	background-size:1.28rem 1.28rem;
+	background-size: cover;
+}
+/*menu*/
+.life_content .menu{
+	width:10.0rem;
+	overflow-x: scroll;
+    height:1.066667rem;
+}
+.life_content .menu ul{
+	width:20.0rem;
+}
+.life_content .menu  li{
+	line-height: 1.066667rem;
+	float: left;
+}
+.life_content .menu  li a{
+	display: block;
+	padding: 0 0.453333rem;
+}
+.life_content .images,.life_content .images3{
+	width:100%;
+	margin-bottom:0.32rem;
+}
+.life_content .images img{
+	width:50%;
+	height: 3.2rem;
+	float: left;
+}
+.life_content .images2{
+	display: flex;
+	justify-content: space-between;
+}
+.life_content .images2 img{
+	width: 33%;
+	height:3.84rem;
+}
+.life_content .images3 img{
+	height:3.333333rem;
+}
+.life_content .images3+p{
+	text-align: center;
+	line-height: 1.28rem;
+}
+.life_content .firstFloor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.life_content .firstFloor li img{
+	width:4.933333rem;
+	margin: 0 auto;
+}
+.life_content .firstFloor li p {
+	text-indent: 0.266667rem;
+}
+
+.life_content .firstFloor li p span{
+	margin-left:1.833333rem;
+}
+

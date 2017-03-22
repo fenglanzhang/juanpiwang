@@ -1,0 +1,20 @@
+.tabBar{
+	height: 1.166667rem;
+	width: 10rem;
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	text-align: center;
+	justify-content :space-around;
+}
+.tabBar a img{
+	width: 1.0rem;
+	height: 1.0rem;
+}
+.tabBar a p{
+	font-size: 0.222222rem;
+	line-height: 0.416667rem;
+	text-align: center;
+}

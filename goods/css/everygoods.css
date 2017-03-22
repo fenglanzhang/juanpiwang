@@ -1,0 +1,106 @@
+.every_goods  .swiper-container{
+	 width: 10.0rem;
+     height: 10.0rem;
+}
+.every_goods  .swiper-container img{
+	 width: 10.0rem;
+     height: 10.0rem;
+}
+ .every_goods .info1 p,.every_goods .info2 p{
+ 	text-indent: 0.266667rem;
+ 	line-height:0.7rem;
+ }
+ .every_goods .info1 p:nth-of-type(1){
+ 	font-size: 0.48rem;
+ 	line-height:1.44rem;
+ 	height: 1.44rem;
+ 	margin-top: 0.133333rem;
+ } 
+.every_goods .info1 p span:nth-of-type(1){
+	color: #ff7077;
+}
+.every_goods .info1 p span:last-of-type{
+	color: #ff7077;
+	display: inline-block;
+	width:1.8rem;
+	height:0.453333rem;
+	line-height:0.453333rem;
+	border:0.026667rem solid #ff7077;
+	margin-left: 0.266667rem;
+}
+.every_goods .info2{
+	border-top: 0.026667rem solid #A4A4A4;
+}
+.every_goods .info2 p{
+	line-height: 0.586667rem;
+}
+.every_goods .info2 p:nth-of-type(1) span{
+	font-size: 0.426667rem;
+	margin-right: 0.166667rem;
+}
+.every_goods .info2 p:nth-of-type(2) span{
+	border:0.026667rem solid #ff7077;
+	display: inline-block;
+	text-align: left;
+	width: 0.953333rem;
+	height: 0.473333rem;
+	margin: 0 0.213333rem 0 0.973333rem;
+}
+.every_goods .info2 a{
+	display: block;
+	height: 1.226667rem;
+	width: 10.0rem;
+	line-height: 1.226667rem; 
+	border-top: 0.026667rem solid #b7b7b7;
+	margin-bottom:0.32rem; 
+}
+.every_goods .info2 a img{
+	margin: 0 0 0 0.366667rem;
+	width: 0.266667rem;
+	height: 0.266667rem;
+}
+.every_goods .guige{
+	padding: 0 0.133333rem 0 0.133333rem;
+}
+.every_goods .guige div{
+	border: 1px solid #b7b7b7;
+	width: 2.853333rem;
+	height: 0.8rem;
+	display: inline-block;
+}
+.every_goods .guige div p{
+	line-height: 0.386667rem;
+	text-align: center;
+}
+.every_goods .guige div:nth-of-type(1){
+	margin-right: 0.266667rem;
+}
+.every_goods .guige div p:nth-of-type(2){
+	background-color:#f7f7f7;
+	
+}
+.every_goods .dp{
+	width: 100%;
+}
+.every_goods .dp figure img{
+	float: left;
+	width: 2.32rem;
+	height: 1.2rem;
+}
+.every_goods .dp div{
+	float: left;
+	text-align: center;
+	height: 1.066667rem;
+}
+.every_goods .dp div:nth-of-type(1){
+width:1.866667rem;
+}
+.every_goods .dp div:nth-of-type(2){
+width:8.133333rem;
+text-align: left;
+}
+.bottom{
+	height: 1.208333rem;
+	width: 10rem;
+}
+

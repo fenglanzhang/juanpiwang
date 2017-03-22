@@ -1,0 +1,145 @@
+{
+    "product": [
+        {
+            "banner": "http://s2.juancdn.com/bao/160820/2/c/57b7a806151ad1710e8b4573_750x360.jpg?iopcmd=convert&Q=88&dst=jpg",
+            "data": [
+                {
+                    "name": "越南西宫咖啡",
+                    "market_price": "￥98.5",
+                    "price": "￥29.9",
+                    "img": "http://s2.juancdn.com/bao/160812/b/a/57ad2935151ad14d798b45a1_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "越南原味咖啡",
+                    "market_price": "￥169",
+                    "price": "￥59.9",
+                    "img": "http://s2.juancdn.com/bao/160819/c/c/57b694e6151ad120738b45f7_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "西贡奶香味咖啡",
+                    "market_price": "￥35.5",
+                    "price": "￥16.9",
+                    "img": "http://s2.juancdn.com/bao/160819/7/8/57b6953b151ad1dd7d8b45c1_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "越南特浓咖啡",
+                    "market_price": "￥28.5",
+                    "price": "￥14.5",
+                    "img": "http://s2.juancdn.com/bao/160820/f/0/57b7b98e151ad17a188b45c4_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "越南进口特浓咖啡",
+                    "market_price": "￥39.5",
+                    "price": "￥68",
+                    "img": "http://s2.juancdn.com/bao/160820/f/0/57b7b98e151ad17a188b45c4_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "西贡原味咖啡",
+                    "market_price": "￥125",
+                    "price": "￥49.8",
+                    "img": "http://s2.juancdn.com/bao/160819/1/8/57b69325151ad1c10c8b4574_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "西贡炭烧咖啡",
+                    "market_price": "￥125",
+                    "price": "￥48.5",
+                    "img": "http://s2.juancdn.com/bao/160819/d/2/57b69460151ad1ec798b45be_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                }
+            ]
+        },
+        {
+            "banner": "http://s2.juancdn.com/bao/161020/b/2/580870a7151ad1cc3e8b45c7_750x360.jpg?iopcmd=convert&Q=88&dst=jpg",
+            "data": [
+                {
+                    "name": "韩国可瑞安蛋卷",
+                    "market_price": "￥60",
+                    "price": "￥29.9",
+                    "img": "http://s2.juancdn.com/bao/161016/4/a/58036bd3151ad1ac588b45a3_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "泰国小老板海苔",
+                    "market_price": "￥60",
+                    "price": "￥29.9",
+                    "img": "http://s2.juancdn.com/bao/161013/6/0/57ff18ba151ad17c568b45de_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "儿童烤海苔",
+                    "market_price": "￥66.5",
+                    "price": "￥24。5",
+                    "img": "http://s2.juancdn.com/bao/161017/6/c/5804f0f5151ad136308b459a_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "印尼瑞丹卷",
+                    "market_price": "￥64",
+                    "price": "￥14.5",
+                    "img": "http://s2.juancdn.com/bao/161016/7/9/58039aeb151ad1884f8b45be_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "韩国乐天巧克力",
+                    "market_price": "￥54.9",
+                    "price": "￥28.6",
+                    "img": "http://s2.juancdn.com/bao/161017/e/9/5804eabc151ad100308b4588_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "黑糖芝麻杏仁茶",
+                    "market_price": "￥90",
+                    "price": "￥49.8",
+                    "img": "http://s2.juancdn.com/bao/161018/8/c/58050e76151ad16e218b4567_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "台湾牛乳酥饼",
+                    "market_price": "￥77",
+                    "price": "￥28.5",
+                    "img": "http://s2.juancdn.com/bao/161016/c/0/580327ad151ad1971b8b459f_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                }
+            ]
+        },
+        {
+            "banner": "http://s2.juancdn.com/bao/161020/5/b/58086fe7151ad1403f8b45c0_750x360.jpg?iopcmd=convert&Q=88&dst=jpg",
+            "data": [
+                {
+                    "name": "黄金贵妇眼膜",
+                    "market_price": "￥198",
+                    "price": "￥69",
+                    "img": "http://s2.juancdn.com/bao/160902/c/3/57c8d8c2151ad1f9488b45d5_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "贵妇抗皱眼膜",
+                    "market_price": "￥199",
+                    "price": "￥69.9",
+                    "img": "http://s2.juancdn.com/bao/160902/3/8/57c8d8ce151ad140308b4603_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "黑珍珠眼膜",
+                    "market_price": "￥169",
+                    "price": "￥65",
+                    "img": "http://s2.juancdn.com/bao/160902/a/a/57c8d8c7151ad1f1548b45a1_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "贵妇蓝宝石眼膜",
+                    "market_price": "￥198",
+                    "price": "￥69",
+                    "img": "http://s2.juancdn.com/bao/161014/4/8/58007bbc151ad12a678b45e9_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "贵妇亮白眼膜",
+                    "market_price": "￥396",
+                    "price": "￥128",
+                    "img": "http://s2.juancdn.com/bao/160902/2/1/57c8d8d3151ad1c02f8b45db_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "贵妇黄金眼膜",
+                    "market_price": "￥255",
+                    "price": "￥89",
+                    "img": "http://s2.juancdn.com/bao/160913/6/1/57d7df9a151ad1312a8b45f7_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                },
+                {
+                    "name": "贵妇补水眼膜",
+                    "market_price": "￥386",
+                    "price": "￥126",
+                    "img": "http://s2.juancdn.com/bao/160902/2/2/57c8d8d8151ad121468b45dd_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+                }
+            ]
+        }
+    ]
+}

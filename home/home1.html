@@ -1,0 +1,48 @@
+	<div class="banner">
+		<img src="/home/img/banner.png" alt="">
+	</div>
+	<ul class="menu_list">
+		<li>
+			<a href="###"><img src="/home/img/top_list1.png" alt=""></a>
+			<p>最后疯抢</p>
+		</li>
+		<li>
+			<a href="###"><img src="/home/img/top_list2.png" alt=""></a>
+			<p>9.9包邮</p>
+		</li>
+		<li>
+			<a ui-sref='limit'><img src="/home/img/top_list3.png" alt=""></a>
+			<p>限时抢购</p>
+		</li>
+		<li>
+			<a ui-sref = 'git'><img src="/home/img/top_list4.png" alt=""></a>
+			<p>微信红包</p>
+		</li>
+	</ul>
+	<div class="gray"></div>
+	<div class="good_intr">
+		<div class="good_intr_left">
+			<img src="/home/img/home_good1.png" alt="">
+		</div>
+		<div class="good_intr_right">
+			<img src="/home/img/home_good2.jpg" alt="">
+			<img src="/home/img/home_good3.jpg" alt="">
+		</div>
+	</div>
+	<div class="gray"></div>
+	<div class="good_list">
+		<h3><img src="/home/img/newBanner.jpg" alt=""></h3>
+		<div class="show_goods">
+			<div class= 'container'>
+				<figure ng-repeat = 'item in data' ng-click = 'showShop()'>
+						<img src="{{item.img}}" alt="">
+						<figcaption>
+							<p><span>{{item.state}}</span>{{item.discount}}</p>
+							<p>{{item.brand}}</p>
+						</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+</div>
+

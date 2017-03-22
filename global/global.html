@@ -1,0 +1,58 @@
+		<link rel="stylesheet" type="text/css" href="../libs/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="/global/css/globalShop.css"/>
+		<div id="container">
+			<header>
+				<a>全球购</a>
+				<a href=""></a>
+			</header>
+			<div class="maxImg">
+				<a ng-repeat = 'item in bannerData'>
+					<div class="swiper-container">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide"><img src="{{ item.pic }}"/></div>
+					    </div>
+					</div>
+				</a>
+			</div>
+			<div class="goodsClassify row">
+				<a href="" class="col-sm-6 col-xs-6 " ng-repeat='item in childData'><img src="{{ item.pic }}"/></a>
+			</div>
+			<div class="hr col-sm-12 col-xs-12"></div>
+			<div class="haitao">
+				<a href="" class="col-sm-6 col-xs-6"><img src="https://s2.juancdn.com/bao/170320/0/e/58cf504ca43d1f045f3bdaa0_375x456.png?iopcmd=convert&Q=88&dst=png"/></a>
+				<a href="" class="col-sm-6 col-xs-6"><img src="https://s2.juancdn.com/bao/170320/0/e/58cf504ca43d1f045f3bdaa0_375x456.png?iopcmd=convert&Q=88&dst=png"/></a>
+			</div>	
+			<div class="hr col-sm-12 col-xs-12"></div>
+			<div class="tradeMark">
+				<a href="" class="col-sm-3 col-xs-3 "><img src="https://s2.juancdn.com/bao/170316/3/1/58ca6b24a43d1f50fe1d6e70_200x170.png?iopcmd=convert&Q=88&dst=png"/></a>
+				<a href="" class="col-sm-3 col-xs-3 border"><img src="https://s2.juancdn.com/bao/170316/3/1/58ca6b24a43d1f50fe1d6e70_200x170.png?iopcmd=convert&Q=88&dst=png"/></a>
+				<a href="" class="col-sm-3 col-xs-3 border"><img src="https://s2.juancdn.com/bao/170316/3/1/58ca6b24a43d1f50fe1d6e70_200x170.png?iopcmd=convert&Q=88&dst=png"/></a>
+				<a href="" class="col-sm-3 col-xs-3 border"><img src="https://s2.juancdn.com/bao/170316/3/1/58ca6b24a43d1f50fe1d6e70_200x170.png?iopcmd=convert&Q=88&dst=png"/></a>
+				<a href="" class="col-sm-3 col-xs-3"><img src="https://s2.juancdn.com/bao/170316/3/1/58ca6b24a43d1f50fe1d6e70_200x170.png?iopcmd=convert&Q=88&dst=png"/></a>
+				<a href="" class="col-sm-3 col-xs-3"><img src="https://s2.juancdn.com/bao/170316/3/1/58ca6b24a43d1f50fe1d6e70_200x170.png?iopcmd=convert&Q=88&dst=png"/></a>
+				<a href="" class="col-sm-3 col-xs-3"><img src="https://s2.juancdn.com/bao/170316/3/1/58ca6b24a43d1f50fe1d6e70_200x170.png?iopcmd=convert&Q=88&dst=png"/></a>
+				<a href="" class="col-sm-3 col-xs-3"><img src="https://s2.juancdn.com/bao/170316/3/1/58ca6b24a43d1f50fe1d6e70_200x170.png?iopcmd=convert&Q=88&dst=png"/></a>
+			</div>
+			
+			<div class="import" ng-repeat ='items in kouhongData'>
+				<div class="importShow"><img src="{{ items.shop_cover }}"/></div>
+				<a href="">
+					<div class="swiper-container">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide">
+					        	<div class="importGoods col-sm-4 col-xs-4" ng-repeat ='tempItem in items.shop_goods'>
+								<div class="importGoodsImg"><img src="{{ tempItem.pic_url }}"/></div>
+								<div class="importGoodsPrice">
+									<span class="newPrice">24.9</span>
+									<span class='oldPrice'><del>25</del></span>
+								</div>
+								<div class="importGoodsName">{{ tempItem.title }}</div>
+							</div>	
+							<div class="hr col-sm-12 col-xs-12"></div>
+							</div>
+					     </div>
+		   			 </div>
+				</a>
+				
+			</div>
+				

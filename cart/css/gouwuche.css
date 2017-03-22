@@ -1,0 +1,93 @@
+header {
+	height: 1.25rem;
+	line-height: 1.25rem;
+	text-align: center;
+	border-bottom: 0.013889rem solid #ebebeb;
+}
+header p{
+	font-size: 0.486111rem;
+	font-weight: bold;
+}
+.banner{
+	height: 4.791667rem;
+}
+.banner img{
+	height: 3.472222rem;
+	width: 3.847222rem;
+	margin: 0.833333rem 3.166667rem 0 3.166667rem;
+}
+.love{
+
+}
+.love p:nth-of-type(1){
+	font-size: 0.486111rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0.402778rem;
+}
+.love p:nth-of-type(2){
+	font-size: 0.486111rem;
+	font-weight: bold;
+	text-align: center;
+	color: #da6e7b;
+	border: 0.013889rem solid #da6e7b;
+	width: 3.472222rem;
+	height: 1.069444rem;
+	line-height: 1.069444rem;
+	margin-left: 3.333333rem;
+	margin-bottom: 0.694444rem;
+}
+.guess{
+	width: 10.0rem;
+}
+
+.guess>p{
+	height: 1.069444rem;
+	line-height: 1.069444rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.486111rem;
+	background: #f4f3f8;
+}
+.guess figure{
+	height: 6.319444rem;
+	width: 4.944444rem;
+	float: left;
+	margin-bottom: 0.138889rem;
+}
+.guess figure img{
+	height: 5.069444rem;
+	width: 4.944444rem;
+}
+.guess .fig figure:nth-of-type(odd){
+	border-right: 0.069444rem solid #f7f5f8;
+	margin-right: 0.055556rem;
+}
+.guess figure figcaption {
+	line-height: 0.555556rem;
+	font-size: 0.347222rem;
+	margin-left: 0.208333rem;
+}
+.guess figure figcaption p:nth-of-type(1) span{
+	color: #fe9bad;
+	margin-right: 0.166667rem;
+}
+.guess figure figcaption p:nth-of-type(1) b{
+	color: #e4e4e4;
+	margin-left: 0.166667rem;
+	font-size: 0.222222rem;
+	font-weight: normal;
+	text-decoration: line-through;
+}
+.guess figure figcaption p:nth-of-type(1) i{
+	color: #e4e4e4;
+	margin-left: 0.166667rem;
+	font-size: 0.222222rem;
+	font-style: normal;
+	float: right;
+	margin-right: 0.138889rem;
+}
+.guess figure figcaption p:nth-of-type(2){
+	font-weight: bold;
+	font-size: 0.319444rem;
+}

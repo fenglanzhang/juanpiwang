@@ -1,0 +1,124 @@
+{
+    "seconds_hot": [
+        {
+            "img": "http://s2.juancdn.com/bao/161019/f/9/580744ad151ad1e1318b45a5_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "花纹圆领中长款毛衣",
+            "price": "55",
+            "markt_price": "108",
+            "status": "已抢光"
+        },
+        {
+            "img": "http://s2.juancdn.com/bao/161019/a/4/5806c69d151ad1770f8b45a4_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "勾花蕾丝圆领针织衫",
+            "price": "59",
+            "markt_price": "168",
+            "status": "立即抢购"
+        },
+        {
+            "img": "http://s2.juancdn.com/bao/160924/3/5/57e68a37151ad14c468b4580_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "四季通用舒适羊毛被",
+            "price": "59",
+            "markt_price": "499",
+            "status": "立即抢购"
+        }
+    ],
+    "seconds_coat": [
+        {
+            "img": "http://s2.juancdn.com/bao/161018/b/f/5805c46c151ad19f228b45e8_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "灯笼袖毛衣半身裙套装",
+            "price": "89",
+            "markt_price": "888",
+            "status": "立即抢购"
+        },
+        {
+            "img": "http://s2.juancdn.com/bao/161019/c/7/58073f15151ad1fd198b45c4_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "宽松假两件套衬衫",
+            "price": "59",
+            "markt_price": "128",
+            "status": "立即抢购"
+        },
+        {
+            "img": "http://s2.juancdn.com/bao/161018/e/d/5805d6be151ad123588b4600_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "韩版泡泡秀长袖上衣",
+            "price": "39",
+            "markt_price": "179",
+            "status": "立即抢购"
+        }
+    ],
+    "seconds_makeup": [
+        {
+            "img": "http://s2.juancdn.com/bao/161017/7/c/58044ea1151ad1336c8b459a_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "尚肌无暇BB霜",
+            "price": "99",
+            "markt_price": "156",
+            "status": "立即抢购"
+        },
+        {
+            "img": "http://s2.juancdn.com/bao/161017/d/9/58044e9d151ad16f6c8b4590_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "尚肌轻薄遮瑕隔离霜",
+            "price": "64",
+            "markt_price": "146",
+            "status": "立即抢购"
+        },
+        {
+            "img": "http://s2.juancdn.com/bao/161017/2/1/58044e9a151ad1326c8b458a_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "尚肌亮彩遮瑕笔",
+            "price": "25",
+            "markt_price": "80",
+            "status": "立即抢购"
+        }
+    ],
+    "seconds_life": [
+        {
+            "img": "http://s2.juancdn.com/bao/160907/5/8/57cfa4dd151ad1607b8b45bd_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "纯棉加绒被",
+            "price": "78",
+            "markt_price": "509",
+            "status": "立即抢购"
+        },
+        {
+            "img": "http://s1.juancdn.com/bao/150910/8/r/55f12bc90bdad_800x800.jpg_310x310.jpg",
+            "name": "纯棉肌肤枕套（1对）",
+            "price": "19.8",
+            "markt_price": "48",
+            "status": "立即抢购"
+        },
+        {
+            "img": "http://s2.juancdn.com/bao/160927/5/d/57ea1222151ad1e9698b45e3_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "美的对流式电暖炉",
+            "price": "299",
+            "markt_price": "448",
+            "status": "立即抢购"
+        }
+    ],
+    "seconds_mom": [
+        {
+            "img": "http://s2.juancdn.com/bao/161019/c/3/58074508151ad12d298b45de_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "儿童秀教卡通连帽衣",
+            "price": "39.9",
+            "markt_price": "209",
+            "status": "立即抢购"
+        },
+        {
+            "img": "http://s2.juancdn.com/bao/161019/f/2/580744c8151ad13e388b4580_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "儿童卡通警察休闲裤",
+            "price": "35",
+            "markt_price": "208",
+            "status": "立即抢购"
+        },
+        {
+            "img": "http://s2.juancdn.com/bao/160919/7/8/57dfa463151ad15f4a8b458e_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "儿童拉拉裤",
+            "price": "62",
+            "markt_price": "105",
+            "status": "立即抢购"
+        },
+        {
+            "img": "http://s2.juancdn.com/bao/161017/a/c/58042941151ad1d6558b45d2_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+            "name": "贝莱尔运动鞋",
+            "price": "39",
+            "markt_price": "208",
+            "status": "立即抢购"
+        }
+    ]
+}

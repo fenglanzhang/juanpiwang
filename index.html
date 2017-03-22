@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = 'myApp'>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="/common/css/index.css">
+	<link rel="stylesheet" href="/libs/reset.css">
+	<script src = './libs/jquery.js'></script>
+	<script src = './libs/flexible.js'></script>
+	<script src = './libs/angular.min.js'></script>
+	<script src = './libs/angular-ui-router.js'></script>
+</head>
+<body>
+	<div ui-view></div>
+	<div class="tabBar">
+		<a ui-sref="home">
+			<img src="common/img/bottom1.png">
+			<p>今日上新</p>
+		</a>
+		<a ui-sref="cang">
+			<img src="common/img/bottom2.png">
+			<p>直发仓</p>
+		</a>
+		<a ui-sref="global">
+			<img src="common/img/bottom3.png">
+			<p>全球购</p>
+		</a>
+		<a ui-sref="cart">
+			<img src="common/img/bottom4.png">
+			<p>购物车</p>
+		</a>
+		<a ui-sref="mine">
+			<img src="common/img/bottom5.png">
+			<p>我的卷皮</p>
+		</a>
+	</div>
+</body>
+<script>
+	//获取angular应用程序
+	var app = angular.module('myApp', ['ui.router'])
+</script>
+<script src = './cang/js/cang.js'></script>
+<script src = './git/js/git.js'></script>
+<script src = './global/js/global.js'></script>
+<script src = './goods/js/goods.js'></script>
+<script src = './home/js/home.js'></script>
+<script src = './shop/js/shop.js'></script>
+<script src = './app.js'></script>
+<script src = './factory.js'></script>
+
+</html>

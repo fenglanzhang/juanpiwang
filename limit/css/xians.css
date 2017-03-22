@@ -1,0 +1,91 @@
+header {
+	height: 1.25rem;
+	border-bottom: 0.013889rem solid #ebebeb;
+	position: relative;
+}
+header #img3{
+	float: left;
+	height: 0.430556rem;
+	width: 0.25rem;
+	margin: 0.388889rem 0 0 0.416667rem;
+}
+header p{
+	float: left;
+	font-size: 0.416667rem;
+	font-weight: bold;
+	margin: 0.388889rem 0 0 2.986111rem;
+}
+header #img4{
+	float: right;
+	height: 0.513889rem;
+	width: 0.458333rem;
+	margin: 0.388889rem 0.277778rem 0 0;
+}
+.main>img{ 
+	height: 0.513889rem;
+	width: 5.944444rem;
+	margin-left: 0.138889rem;
+	margin-top: 0.277778rem;
+	margin-bottom: 0.277778rem;
+}
+.main figure{
+	margin-left: 0.763889rem;
+	position: relative;
+	height: 2.916667rem;
+	margin-bottom: 0.277778rem;
+}
+.main figure>img{
+	height: 2.611111rem;
+	width: 2.611111rem;
+	float: left;
+	margin-right: 0.291667rem;
+}
+.main figure figcaption{
+	float: left;
+}
+.main figure figcaption p:nth-of-type(1){
+	font-size: 0.347222rem;
+	color: #656565;
+	font-weight: bold;
+	margin-bottom: 1.180556rem;
+}
+.main figure figcaption p:nth-of-type(2) span{
+	color: red;
+	transform:scale(0.8); 
+}
+.main figure figcaption p:nth-of-type(2) b{
+	color: red;
+	font-weight: normal;
+	font-size: 0.486111rem;
+}
+.main figure figcaption p:nth-of-type(2) i{
+	color: gray;
+	font-style: normal;
+	text-decoration: line-through;
+	font-size: 0.222222rem;
+	margin-left: 0.138889rem;
+}
+.main figure figcaption>img{
+	height: 0.263889rem;
+	width: 2.347222rem;
+	margin-top: 0.138889rem;
+}
+.main figure>p{
+	float: right;
+	color:white;
+	background: red;
+	height: 0.763889rem;
+	width: 1.666667rem;
+	text-align: center;
+	line-height: 0.763889rem;
+	position: absolute;
+	top: 1.777778rem;
+	right: 0.138889rem;
+	font-weight: bold;
+
+}
+.mian .line{
+	width: 5.555556rem;
+	height:0.013889rem;
+	border-bottom:0.138889rem solid red;
+}
