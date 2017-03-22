@@ -1,5 +1,5 @@
 .tabBar{
-	height: 1.166667rem;
+	height: 1.5625rem;
 	width: 10rem;
 	position: fixed;
 	right: 0;
@@ -8,6 +8,7 @@
 	display: flex;
 	text-align: center;
 	justify-content :space-around;
+	background: #fff;
 }
 .tabBar a img{
 	width: 1.0rem;

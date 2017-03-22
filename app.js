@@ -11,6 +11,11 @@
 				templateUrl : '/home/home.html',
 				controller : 'homeCtrl'
 			})
+			.state('shopCollect', {
+				url : '/shopCollect',
+				templateUrl : '/shopCollect/shopCollect.html',
+				controller : 'collectCtrl'
+			})
 			.state('cang', {
 				url : '/cang',
 				templateUrl : '/cang/cang.html',
