@@ -28,7 +28,8 @@
 			})
 			.state('cart', {
 				url : '/cart',
-				templateUrl : '/cart/cart.html'
+				templateUrl : '/cart/cart.html',
+				controller:'cartCtrl'
 			})
 			.state('mine', {
 				url : '/mine',

@@ -8,6 +8,177 @@ header p{
 	font-size: 0.486111rem;
 	font-weight: bold;
 }
+.bg6{
+	height: 0.236111rem;
+	background: #f4f4f8;
+	width: 10.0rem;
+}
+.manjian{
+	height: 1.041667rem;
+	line-height: 1.041667rem;
+	width: 10.0rem;
+	border-bottom: 0.013889rem solid #eeeeee;
+}
+.manjian #man1{
+	float: left;
+	height: 0.347222rem;
+	width: 1.027778rem;
+	margin: 0.347222rem 0.208333rem 0 0.333333rem;
+}
+.manjian #man2{
+	float: right;
+	height: 0.319444rem;
+	width: 0.319444rem;
+	margin: 0.347222rem 0.333333rem 0 0;
+}
+.manjian p{
+	float: left;
+	font-weight: bold;
+	font-size: 0.263889rem;
+	text-indent:0.555556rem;
+}
+.manjian p span{
+	margin-left: 3.611111rem;
+	color: red;
+}
+.tianjia{
+	/*height: 2.430556rem;*/
+	width: 10.0rem;
+}
+.tianjia figure{
+	height: 2.430556rem;
+}
+.tianjia figure img{
+	float: left;
+	margin: 0.402778rem 0.333333rem 0 0.333333rem;
+	height: 1.680556rem;
+	width: 1.680556rem;
+}
+.tianjia figure figcaption{
+	float: left;
+	margin: 0.402778rem 0 0 0;
+	position: relative;
+}
+.tianjia figure figcaption p:nth-of-type(1) {
+	height: 0.319444rem;
+	font-weight: bold;
+	margin-bottom: 0.222222rem;
+	/*letter-spacing: 0.069444rem;*/
+}
+.tianjia figure figcaption p:nth-of-type(1) span{
+	margin-left: 2.777778rem;
+}
+.tianjia figure figcaption p:nth-of-type(2) {
+	height: 0.277778rem;
+	color: #e3e3e3;
+	margin-bottom: 0.347222rem;
+}
+.tianjia figure figcaption p:nth-of-type(2) span{
+	/*margin-left: 4.305556rem;*/
+	float: right;
+	/*margin-right: 0.2rem;*/
+	text-decoration: line-through;
+}
+.tianjia figure figcaption p:nth-of-type(3) span{
+	display: inline-block;
+	margin-right: 0.208333rem;
+}
+.tianjia figure figcaption p:nth-of-type(3) b{
+	display: inline-block;
+	height: 0.555556rem;
+	width: 0.555556rem;
+	background:#f4f4f8;
+	text-align: center;line-height: 0.555556rem;
+	margin-right: 0.416667rem;
+}
+.tianjia figure figcaption p:nth-of-type(3) b:nth-of-type(2){
+	color: red;
+}
+.tianjia figure figcaption img{
+	height: 0.291667rem;
+	width: 0.25rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.heji{
+	margin: 0 0.694444rem;
+	height: 1.138889rem;
+	line-height: 1.138889rem;
+	width: 8.333333rem;
+	border-bottom: 0.013889rem solid #ebebeb;
+	font-size: 0.361111rem;
+	font-weight: bold;
+}
+.heji p span{
+	float: right;
+}
+.shiy{
+	height: 1.152778rem;
+	line-height: 1.152778rem;
+	font-weight: bold;
+	font-size: 0.361111rem;
+}
+.shiy p{
+	margin-left: 0.208333rem;
+}
+.shiy p span{
+	margin-left: 4.625rem;
+}
+.shiy p img{
+	margin-left: 0.291667rem;
+	height: 0.319444rem;
+	width: 0.319444rem;
+}
+.bg7{
+	height: 6.25rem;
+	background: #f4f4f8;
+}
+.footer1{
+	height: 1.138889rem;
+	line-height: 1.138889rem;
+}
+.footer1 li{
+	float: left;
+	width: 5.0rem;
+}
+.footer1 li:nth-of-type(1){
+	font-size: 0.416667rem;
+	font-weight: bold;
+	text-indent: 1.5rem;
+}
+.footer1 li:nth-of-type(1) span{
+	color: red;
+}
+.footer1 li:nth-of-type(2){
+	font-size: 0.416667rem;
+	font-weight: bold;
+	color: white;
+	background: red;
+	text-align: center;
+	border-bottom: 0.013889rem solid #ebebeb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .banner{
 	height: 4.791667rem;
 }
