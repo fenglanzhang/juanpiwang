@@ -1,7 +1,7 @@
 app.factory('homeFac', ['$http', function ($http) {
 	return {
 		getHomeData1 : function () {
-			return $http.get('/data/today.json')
+			return $http.get('/data/global-03.json')
 		},
 		getHomeData2 : function () {
 			return $http.get('/data/clothes.json')
@@ -23,8 +23,17 @@ app.factory('homeFac', ['$http', function ($http) {
 		},
 		getHomeData8 : function () {
 			return $http.get('/data/livingHomeCookhouseGoodsData.json')
-		}
-	}
+		},
+		getLunbo : function () {
+			return $http.get('/data/beautyData.json')
+		},
+		getLunbo1 : function () {
+			return $http.get('/data/digitalData.json')
+		},
+		getLunbo2 : function () {
+			return $http.get('/data/global-02.json')
+		},
+	}	
 }])
 	.factory('totalMoney', ['cartServ', function (cartServ) {
 		return {
@@ -36,5 +45,12 @@ app.factory('homeFac', ['$http', function ($http) {
 				return money
 			}
 			
+		}
+	}])
+	.factory('limitFac', ['$http', function ($http) {
+		return {
+			getLimitGoods : function () {
+				return $http.get('/data/global-03.json')
+			}
 		}
 	}])

@@ -2,16 +2,9 @@
 	<link rel="stylesheet" type="text/css" href="/goods/css/everygoods.css"/>
 	
 		<div class="every_goods">
-			<div class="swiper-container">
-			    <div class="swiper-wrapper">
-			        <div class="swiper-slide"><img src="{{item.pic_url}}"></div>
-			       <!--  <div class="swiper-slide"><img src="/goods/img/gf2.jpg"></div>
-			        <div class="swiper-slide"><img src="/goods/img/tyht4.jpg"></div>
-			        <div class="swiper-slide"><img src="/goods/img/yjhyu5.jpg"></div>
-					<div class="swiper-slide"><img src="/goods/img/dfjl1.jpg"></div>
-			    </div> -->
-			    <div class="swiper-pagination"></div>
-			</div>
+			<img src="{{item.pic_url}}">
+			    
+			
 			<div class="info1 clear">
 				<p>{{item.title}}</p>
 				<p><span>￥<strong>{{item.cprice}}</strong></span><del><small>￥{{item.oprice}}</small></del><span>运费{{item.shipping}}元</span></p>

@@ -51,7 +51,7 @@
 	margin-bottom: 0.222222rem;
 }
 .main_top div p:nth-of-type(2){
-	width: 1.222222rem;
+	width: 2.0rem;
 	height: 0.5rem;
 	background: #ff6d00;
 	color: #fffad8;
@@ -75,9 +75,9 @@
 .main_center p:nth-of-type(1){
 	font-size: 0.277778rem;
 	text-indent: 0.486111rem;
-	overflow: hidden;
+	/*overflow: hidden;
 	text-overflow:ellipsis;
-	white-space: nowrap;
+	white-space: nowrap;*/
 	margin-top: 0.013889rem;
 	line-height: 0.5rem;
 	color: #3e3e3e;

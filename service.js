@@ -23,3 +23,16 @@ app.service('cartServ', function () {
 		}
 	}
 })
+  .service('lunbo', function () {
+  	this.lunbo = function () {
+  		var mySwiper = new Swiper ('.swiper-container', {
+	    direction: 'horizontal',
+	    loop: true,
+	    autoplay:1000,
+	    observer:true,
+	    autoplayDisableOnInteraction:false,
+	    // 如果需要分页器
+	    pagination: '.swiper-pagination',
+	  })  
+  	}
+  })
