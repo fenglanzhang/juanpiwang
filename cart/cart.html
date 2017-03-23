@@ -14,7 +14,7 @@
 				<figcaption>
 					<p>{{item.title}}<span>￥{{item.cprice}}</span></p>
 					<p>{{item.residue}} S <span>￥{{item.oprice}}</span></p>
-					<p><b>-</b><span>{{item.count}}</span><b>+</b></p>
+					<p><b ng-click = 'sub()'>-</b><span>{{item.count}}</span><b ng-click = 'add()'>+</b></p>
 					<img src="/cart/img/cha.jpg"/>
 				</figcaption>
 			</figure>
