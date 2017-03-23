@@ -19,3 +19,14 @@
 	line-height: 0.416667rem;
 	text-align: center;
 }
+.class1{
+	/*background-color: yellow;*/
+	/* calc运算函数 */
+	height: calc(100% - 1.222222rem);
+}
+
+/* footer隐藏时候的样式 */
+.class2{
+	/*background-color: orange;*/
+	height: 100%;
+}
