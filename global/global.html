@@ -34,10 +34,10 @@
 			</div>
 			
 			<div class="import clearboth" ng-repeat ='items in listData'>
-				<div class="importShow"><img src="{{ items.shop_cover }}"/></div>
+				<div class="importShow" ng-click='showShop()'><img src="{{ items.shop_cover }}"/></div>
 					<div class="importscroll">
 					<a href="">
-						<div class="importGoods " ng-repeat ='tempItem in items.shop_goods' ng-click='showGoods()'>
+						<div class="importGoods " ng-repeat ='tempItem in items.shop_goods' ng-click='showGoods()' ng-click="showGoods()">
 							<div class="importGoodsImg"><img src="{{ tempItem.pic_url }}"/></div>
 							<div class="importGoodsPrice">
 								<span class="newPrice">{{ tempItem.cprice }}</span>

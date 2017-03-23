@@ -54,3 +54,15 @@ app.factory('homeFac', ['$http', function ($http) {
 			}
 		}
 	}])
+	
+	.factory('show', ['$state', function ($state) {
+		return {
+			showShop : function (item) {
+				$state.go('shop', {id:JSON.stringify(item)});
+			},
+			
+			showGoods : function (item) {
+				$state.go('goods',{id: JSON.stringify(item)})
+			}
+		}
+	}])
