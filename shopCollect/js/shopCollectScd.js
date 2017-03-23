@@ -5,4 +5,7 @@ app.controller('collectScdCtrl', ['$scope', '$http', '$stateParams','collectServ
 		console.log(this);
 		$state.go('shop', {id:JSON.stringify(this.item)});
 	}
+	$scope.showGoods = function () {
+		$state.go('goods',{id: JSON.stringify(this.item)})
+	}
 }])

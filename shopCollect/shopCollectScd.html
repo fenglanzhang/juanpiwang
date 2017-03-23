@@ -56,7 +56,7 @@
 					<p class="col-sm-12 col-xs-12 clearPadding">满2件9折</p>
 					<p class=" col-sm-12 col-xs-12 clearPadding">
 						<a href="" class="goodsScroll">
-						<span class="col-xs-3 col-sm-3 clearPadding"  ng-repeat='tempItem in item.shop_goods'><img src="{{ tempItem.pic_url }}"/></span>
+						<span class="col-xs-3 col-sm-3 clearPadding"  ng-repeat='tempItem in item.shop_goods' ng-click='showGoods()'><img src="{{ tempItem.pic_url }}"/></span>
 						</a>
 					</p>
 				</div>
