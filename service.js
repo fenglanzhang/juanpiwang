@@ -17,4 +17,22 @@ app.service('cartServ', function () {
 	this.getGoods = function () {
 		return arr 
 	}
+	this.removeGoods = function (item) {
+		if(confirm('是否取消该商品')){
+			arr.splice(arr.indexOf(item), 1)
+		}
+	}
 })
+  .service('lunbo', function () {
+  	this.lunbo = function () {
+  		var mySwiper = new Swiper ('.swiper-container', {
+	    direction: 'horizontal',
+	    loop: true,
+	    autoplay:1000,
+	    observer:true,
+	    autoplayDisableOnInteraction:false,
+	    // 如果需要分页器
+	    pagination: '.swiper-pagination',
+	  })  
+  	}
+  })

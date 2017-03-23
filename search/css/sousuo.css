@@ -34,7 +34,7 @@ header>img{
 	float: left;
 	overflow-y:scroll; 
 }
-.main .main_left ul li{
+.main .main_left a{
 	width: 2.152778rem;
 	height: 1.152778rem;
 	line-height: 1.152778rem;
@@ -43,9 +43,10 @@ header>img{
 	font-size: 0.347222rem;
 	font-weight: bold;
 	background: #f7f7f7;
+	display: block;
 }
 
-.main .main_left ul li:hover{
+.main .main_left .bianse{
 	display: block;
 	background: white;
 	color: red;

@@ -1,11 +1,5 @@
 	<div class="banner">
-		<div class="swiper-container">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide" ng-repeat='item in lunboData'><img src="{{item.pic}}" alt=""></div>
-    </div>
-    <!-- 如果需要分页器 -->
-    <div class="swiper-pagination"></div>
-</div>
+		<img src="/home/img/banner.png" alt="">
 	</div>
 	<ul class="menu_list">
 		<li>
@@ -40,12 +34,11 @@
 		<h3><img src="/home/img/newBanner.jpg" alt=""></h3>
 		<div class="show_goods">
 			<div class= 'container'>
-				<figure ng-repeat = 'item in data' ng-click = 'showShop()'>
+				<figure ng-repeat = 'item in data3' ng-click = 'showGoods()'>
 						<img src="{{item.pic_url}}" alt="">
 						<figcaption>
-							<p><span>{{item.residue}}</span>
-							{{item.discount}}</p>
-							<p>{{item.shopName}}</p>
+							<p><span>上新</span>{{item.residue}}</p>
+							<p>{{item.title}}</p>
 						</figcaption>
 				</figure>
 			</div>

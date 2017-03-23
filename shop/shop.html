@@ -3,14 +3,14 @@
 
 	<div class="top">
 		<img src="/shop/img/back_arrow.jpg" alt="" onclick = 'history.back()'>
-		<span>{{item.brand}}</span>
+		<span>{{item.shopName}}</span>
 		<img src="/shop/img/more.png" alt="">
 	</div>
 	<div class="main">
 		<div class="main_top">
 			<img src="/shop/img/brand.png" alt="">
 			<div>
-				<p>{{item.brand}}小店</p>
+				<p>{{item.shopName}}小店</p>
 				<p>店铺发货</p>
 			</div>
 			<figure>
@@ -23,11 +23,11 @@
 		<div class="main_center">
 			<p>
 				<span>满赠</span>
-				{{item.discount}}
+				满100送指定商品免单
 			</p>
 			<p>
 				<span>满件减</span>
-				{{item.state}}
+				{{item.discount}}
 			</p>
 		</div>
 	</div>
@@ -43,7 +43,20 @@
 	</div>
 	<div class="goods_detail_list">
 		<div class="container">
-			<figure>
+			<figure ng-repeat = 'items in item.shop_goods' ng-click = 'showGoods()'>
+				<img src="{{items.pic_url}}" alt="">
+				<figcaption>
+					<p>
+						<span>{{item.residue}}</span>
+						<b>￥{{items.cprice}}</b>
+						<span>￥{{items.oprice}}</span>
+					</p>
+					<p>
+						{{items.title}}
+					</p>
+				</figcaption>
+			</figure>
+<!-- 			<figure>
 				<img src="/shop/img/goods_detail.jpg" alt="">
 				<figcaption>
 					<p>
@@ -81,19 +94,6 @@
 						韩版小裙子
 					</p>
 				</figcaption>
-			</figure>
-			<figure>
-				<img src="/shop/img/goods_detail.jpg" alt="">
-				<figcaption>
-					<p>
-						<span>上新</span>
-						<b>￥57</b>
-						<span>￥176</span>
-					</p>
-					<p>
-						韩版小裙子
-					</p>
-				</figcaption>
-			</figure>
+			</figure> -->
 		</div>
 	</div>
