@@ -1,3 +1,3 @@
-app.controller('collectFstCtrl', ['$scope', '$http', function ($scope,$http) {
-	
+app.controller('collectFstCtrl', ['$scope', '$http', 'goodsServ', function ($scope,$http,goodsServ) {
+	$scope.data = goodsServ.goodsArr();
 }])
