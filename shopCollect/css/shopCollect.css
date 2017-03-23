@@ -35,7 +35,16 @@ header span:nth-of-type(1) a{
 	position: relative;
 	left: -0.859375rem;	
 }
-
+.nocolor{
+	color: #4A4A4A;
+	text-decoration: none;
+	border-bottom: none;
+}
+.colorBorder{
+	border-bottom: 0.0625rem solid #ff464e;
+	color: #ff464e;
+	text-decoration: none;
+}
 .redBorder{
 	border-bottom: 0.0625rem solid #ff464e;
 }
@@ -78,6 +87,13 @@ nav>section{
 	font-size: 0.4375rem;
 	color: #333;
 }
+nav>section>a{
+	display: block;
+	text-align: center;
+	line-height: 1.25rem;
+	font-size: 0.4375rem;
+	color: #333;
+}
 .shopLogo{
 	padding: 0.421875rem 0;
 	height: 2.03125rem;
@@ -86,19 +102,20 @@ nav>section{
 	font-size: 0.4375rem;
 	font-weight: 6.25rem;
 	color: #4a4a4a;
+	margin: 0;
 }
 
 .sellWay>span:nth-of-type(1){
 	font-size: 0.3125rem;
 	display: inline-block;
-	margin-top: 0.078125rem;
+	/*margin-top: 0.078125rem;*/
 	background: #f70;
 	color: #fff;
 }
 .sellWay span:nth-of-type(2){
 	font-size: 0.3125rem;
 	display: inline-block;
-	margin-top: 0.078125rem;
+	/*margin-top: 0.078125rem;*/
 	margin-left: 0.15625rem;
 	background: #ff464e;
 	color: #fff;

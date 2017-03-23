@@ -4,6 +4,11 @@
 		//路由重定向
 		$urlRouterProvider.when('', 'home');
 		$urlRouterProvider.when('/home', 'home/home1')
+<<<<<<< HEAD
+		$urlRouterProvider.when('/shopCollect', 'shopCollect/shopCollectFst')
+=======
+		$urlRouterProvider.when('/search', '/search/jingxuan')
+>>>>>>> 05439fed7815ae75921a17f6bea28b814d2c9983
 		// //配置相关路由
 		$stateProvider
 			.state('home', {
@@ -14,7 +19,7 @@
 			.state('shopCollect', {
 				url : '/shopCollect',
 				templateUrl : '/shopCollect/shopCollect.html',
-				controller : 'collectCtrl'
+				controller : 'collectCtrl as ctrl'
 			})
 			.state('cang', {
 				url : '/cang',
@@ -52,7 +57,8 @@
 			})
 			.state('search', {
 				url : '/search',
-				templateUrl:'/search/search.html'
+				templateUrl:'/search/search.html',
+				controller: 'searchCtrl'
 			})
 			.state('order', {
 				url : '/order',
@@ -76,10 +82,39 @@
 				url:'/home3',
 				templateUrl : '/home/home3.html'
 			})
+<<<<<<< HEAD
+			.state('shopCollect.shopCollectFst', {
+				url : '/shopCollectFst',
+				templateUrl : '/shopCollect/shopCollectFst.html',
+				controller : "collectFstCtrl"
+			})
+			.state('shopCollect.shopCollectScd', {
+				url : '/shopCollectScd',
+				templateUrl : '/shopCollect/shopCollectScd.html',
+				controller : "collectScdCtrl"
+			})
+=======
 			.state('home.home4', {
 				url:'/home4',
 				templateUrl : '/home/home4.html'
 			})
+			.state('search.jingxuan',{
+				url:'/jingxuan',
+				templateUrl: '/search/jingxuan.html',
+				controller: 'jingxuanCtrl'
+			})
+			.state('search.girls',{
+				url:'/girls',
+				templateUrl: '/search/girls.html',
+				controller: 'jingxuanCtrl'
+			})
+			.state('search.boys',{
+				url:'/boys',
+				templateUrl: '/search/boys.html',
+				controller: 'jingxuanCtrl'
+			})
+			
+>>>>>>> 05439fed7815ae75921a17f6bea28b814d2c9983
 
 		
 	}])
