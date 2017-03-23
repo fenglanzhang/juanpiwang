@@ -114,7 +114,6 @@
 				templateUrl: '/search/boys.html',
 				controller: 'jingxuanCtrl'
 			})
-<<<<<<< HEAD
 
 	}])
 	.run(['$window', '$rootScope', function ($window, $rootScope) {
@@ -125,6 +124,4 @@
 				$rootScope.rootIsShow = false;
 			}
 		})
-=======
->>>>>>> e3774928d7270eae1597af82dff7b778f38b39f5
 	}])
