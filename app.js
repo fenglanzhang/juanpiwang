@@ -4,6 +4,7 @@
 		//路由重定向
 		$urlRouterProvider.when('', 'home');
 		$urlRouterProvider.when('/home', 'home/home1')
+		$urlRouterProvider.when('/search', '/search/jingxuan')
 		// //配置相关路由
 		$stateProvider
 			.state('home', {
@@ -52,7 +53,8 @@
 			})
 			.state('search', {
 				url : '/search',
-				templateUrl:'/search/search.html'
+				templateUrl:'/search/search.html',
+				controller: 'searchCtrl'
 			})
 			.state('order', {
 				url : '/order',
@@ -79,6 +81,22 @@
 				url:'/home4',
 				templateUrl : '/home/home4.html'
 			})
+			.state('search.jingxuan',{
+				url:'/jingxuan',
+				templateUrl: '/search/jingxuan.html',
+				controller: 'jingxuanCtrl'
+			})
+			.state('search.girls',{
+				url:'/girls',
+				templateUrl: '/search/girls.html',
+				controller: 'jingxuanCtrl'
+			})
+			.state('search.boys',{
+				url:'/boys',
+				templateUrl: '/search/boys.html',
+				controller: 'jingxuanCtrl'
+			})
+			
 
 		
 	}])
