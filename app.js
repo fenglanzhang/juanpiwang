@@ -4,6 +4,7 @@
 		//路由重定向
 		$urlRouterProvider.when('', 'home');
 		$urlRouterProvider.when('/home', 'home/home1')
+		$urlRouterProvider.when('/shopCollect', 'shopCollect/shopCollectFst')
 		// //配置相关路由
 		$stateProvider
 			.state('home', {
@@ -14,7 +15,7 @@
 			.state('shopCollect', {
 				url : '/shopCollect',
 				templateUrl : '/shopCollect/shopCollect.html',
-				controller : 'collectCtrl'
+				controller : 'collectCtrl as ctrl'
 			})
 			.state('cang', {
 				url : '/cang',
@@ -74,6 +75,16 @@
 			.state('home.home3', {
 				url:'/home3',
 				templateUrl : '/home/home3.html'
+			})
+			.state('shopCollect.shopCollectFst', {
+				url : '/shopCollectFst',
+				templateUrl : '/shopCollect/shopCollectFst.html',
+				controller : "collectFstCtrl"
+			})
+			.state('shopCollect.shopCollectScd', {
+				url : '/shopCollectScd',
+				templateUrl : '/shopCollect/shopCollectScd.html',
+				controller : "collectScdCtrl"
 			})
 
 		
