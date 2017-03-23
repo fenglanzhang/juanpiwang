@@ -13,6 +13,10 @@ app.controller('homeCtrl', ['$scope', '$http', 'homeFac','$state', function ($sc
 	homeFac.getHomeData3().then(function (data) {
 		$scope.data2 = data.data.list
 	})
+	homeFac.getHomeData4().then(function (data) {
+		$scope.data3 = data.data.list
+		console.log(data.data.list)
+	})
 	$scope.showShop = function () {
 		$state.go('shop', {id:JSON.stringify(this.item)})
 	}

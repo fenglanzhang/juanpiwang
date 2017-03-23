@@ -8,6 +8,21 @@ app.factory('homeFac', ['$http', function ($http) {
 		},
 		getHomeData3 : function () {
 			return $http.get('/data/livingHomeCookhouseGoodsData.json')
+		},
+		getHomeData4 : function () {
+			return $http.get('/data/global-baby.json')
+		},
+		getHomeData5 : function () {
+			return $http.get('/data/livingHomeCookhouseGoodsData.json')
+		},
+		getHomeData6 : function () {
+			return $http.get('/data/livingHomeCookhouseGoodsData.json')
+		},
+		getHomeData7 : function () {
+			return $http.get('/data/livingHomeCookhouseGoodsData.json')
+		},
+		getHomeData8 : function () {
+			return $http.get('/data/livingHomeCookhouseGoodsData.json')
 		}
 	}
 }])

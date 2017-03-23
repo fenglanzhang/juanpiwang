@@ -75,6 +75,10 @@
 				url:'/home3',
 				templateUrl : '/home/home3.html'
 			})
+			.state('home.home4', {
+				url:'/home4',
+				templateUrl : '/home/home4.html'
+			})
 
 		
 	}])

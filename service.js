@@ -17,4 +17,9 @@ app.service('cartServ', function () {
 	this.getGoods = function () {
 		return arr 
 	}
+	this.removeGoods = function (item) {
+		if(confirm('是否取消该商品')){
+			arr.splice(arr.indexOf(item), 1)
+		}
+	}
 })
