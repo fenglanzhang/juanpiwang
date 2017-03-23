@@ -59,8 +59,9 @@
 				templateUrl : '/order/order.html'
 			})
 			.state('limit', {
-				url : 'limit',
-				templateUrl : '/limit/limit.html'
+				url : '/limit',
+				templateUrl : '/limit/limit.html',
+				controller :　'limitCtrl'
 			})
 			//配置2级路由
 			.state('home.home1', {

@@ -1,5 +1,10 @@
 	<div class="banner">
-		<img src="/home/img/banner.png" alt="">
+		<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" ng-repeat='item in lunboData2'><img src="{{item.pic}}" alt=""></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
 	</div>
 	<ul class="menu_list">
 		<li>

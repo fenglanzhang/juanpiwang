@@ -1,6 +1,8 @@
 {
 "list": [
 {
+"shopName" : "居家百货织物TOP",
+"discount" : "满99元减20元",
 "goods_id": "24348720",
 "brand_id": 0,
 "shop_id": "1830940",
@@ -49,6 +51,8 @@
 }
 },
 {
+"shopName" : "洁丽雅品牌毛巾专场",
+"discount" : "满99元减20元",
 "goods_id": "28387183",
 "brand_id": 0,
 "shop_id": "1949842",
@@ -97,6 +101,8 @@
 }
 },
 {
+"shopName" : "优选织物惊爆一口价",
+"discount" : "29元5件任选",
 "goods_id": "27709342",
 "brand_id": 0,
 "shop_id": "1712934",
@@ -146,6 +152,8 @@
 }
 },
 {
+"shopName" : "日百个护特惠专场",
+"discount" : "20元5件任选",
 "goods_id": "25218897",
 "brand_id": 0,
 "shop_id": "1381931",
@@ -195,6 +203,8 @@
 }
 },
 {
+"shopName" : "双层珊瑚绒抹布",
+"discount" : "20元5件任选",
 "goods_id": "26457958",
 "brand_id": "0",
 "shop_id": "0",
