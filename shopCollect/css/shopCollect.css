@@ -1,7 +1,10 @@
 @charset 'utf-8';
-html,body{
-	font-family:PingFang-SC-Regular,Helvetica Neue,Helvetica,Droid Sans Fallback,microsoft yahei,sans-serif
+html{
+	font-family:PingFang-SC-Regular,Helvetica Neue,Helvetica,Droid Sans Fallback,microsoft yahei,sans-serif;
 	
+}
+body{
+	padding-bottom:20rem;
 }
 header{
 	position: fixed;
@@ -147,10 +150,19 @@ nav>section>a{
 	color: #ff464e;
 }
 .specialLogo p:nth-of-type(3){
-	padding: 0.3125rem 0  0.46875rem 0;
+	/*padding: 0.3125rem 0  0.46875rem 0;*/
+	overflow: scroll;
+}
+.specialLogo p:nth-of-type(3) .goodsScroll{
+	display: block;
+	width: 23.4375rem;
+	height: 1.578125rem;
 }
 .specialLogo p:nth-of-type(3) span{
 	padding-left: 0.15625rem;
+	display: inline-block;
+	width: 2.390625rem;
+	height: 2.390625rem;
 }
 .specialLogo p:nth-of-type(3) span:nth-of-type(4){
 	padding-left:0;
