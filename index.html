@@ -15,8 +15,8 @@
 	<link rel="stylesheet" href="./libs/swiper.min.css">
 </head>
 <body>
-	<div ui-view></div>
-	<div class="tabBar">
+	<div ui-view ng-click = '{true:"class1", false:"class2"}[rootIsShow]'></div>
+	<div class="tabBar" ng-show = 'rootIsShow'>
 		<a ui-sref="home">
 			<img src="common/img/bottom1.png">
 			<p>今日上新</p>
@@ -50,6 +50,10 @@
 <script src = './goods/js/goods.js'></script>
 <script src = './home/js/home.js'></script>
 <script src = './cart/js/cart.js'></script>
+<<<<<<< HEAD
+
+=======
+>>>>>>> e3774928d7270eae1597af82dff7b778f38b39f5
 <script src = "./shopCollect/js/shopCollect.js" ></script>
 <script src = "./shopCollect/js/shopCollectScd.js" ></script>
 <script src = "./shopCollect/js/shopCollectFst.js" ></script>
@@ -60,4 +64,8 @@
 <script src = './factory.js'></script>
 <script src="./search/js/jingxuan.js" type="text/javascript" charset="utf-8"></script>
 <script src="./search/js/search.js" type="text/javascript" charset="utf-8"></script>
+<<<<<<< HEAD
+
+=======
+>>>>>>> e3774928d7270eae1597af82dff7b778f38b39f5
 </html>

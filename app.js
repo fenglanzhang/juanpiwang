@@ -1,6 +1,7 @@
- 
+ 	
 	 //配置路由
 	app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
+		
 		//路由重定向
 		$urlRouterProvider.when('', 'home');
 		$urlRouterProvider.when('/home', 'home/home1')
@@ -113,4 +114,17 @@
 				templateUrl: '/search/boys.html',
 				controller: 'jingxuanCtrl'
 			})
+<<<<<<< HEAD
+
+	}])
+	.run(['$window', '$rootScope', function ($window, $rootScope) {
+		$rootScope.$on('$locationChangeSuccess', function () {
+			if(($window.location.href.indexOf('home')!= -1) || ($window.location.href.indexOf('cang')!= -1) || ($window.location.href.indexOf('global')!= -1) || ($window.location.href.indexOf('cart')!= -1) || ($window.location.href.indexOf('mine')!= -1)) {
+				$rootScope.rootIsShow = true
+			}else{
+				$rootScope.rootIsShow = false;
+			}
+		})
+=======
+>>>>>>> e3774928d7270eae1597af82dff7b778f38b39f5
 	}])
