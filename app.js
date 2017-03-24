@@ -120,9 +120,6 @@
 				controller: 'jingxuanCtrl'
 			})
 
-=======
->>>>>>> 01503d1cab810c8008f29e1f39f02fcfb7ea573f
-
 	}])
 	.run(['$window', '$rootScope', function ($window, $rootScope) {
 		$rootScope.$on('$locationChangeSuccess', function () {
