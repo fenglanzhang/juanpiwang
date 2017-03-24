@@ -66,3 +66,16 @@ app.factory('homeFac', ['$http', function ($http) {
 			}
 		}
 	}])
+	.factory('searchFac', ['$http', function ($http) {
+		return {
+			getData1 : function () {
+				return $http.get('/data/baby.json')
+			},
+			getData2 : function () {
+				return $http.get('/data/boyClothes.json')
+			},
+			getData3 : function () {
+				return $http.get('/data/girlClothes.json')
+			}
+		}
+	}])

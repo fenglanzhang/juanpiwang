@@ -8,7 +8,7 @@
 
 		$urlRouterProvider.when('/shopCollect', 'shopCollect/shopCollectFst')
 
-		$urlRouterProvider.when('/search', '/search/jingxuan')
+		$urlRouterProvider.when('/search', 'search/jingxuan')
 
 		// //配置相关路由
 		$stateProvider
@@ -106,18 +106,16 @@
 			})
 			.state('search.jingxuan',{
 				url:'/jingxuan',
-				templateUrl: '/search/jingxuan.html',
-				controller: 'jingxuanCtrl'
+				templateUrl: '/search/jingxuan.html'
+				// controller: 'jingxuanCtrl'
 			})
 			.state('search.girls',{
 				url:'/girls',
 				templateUrl: '/search/girls.html',
-				controller: 'jingxuanCtrl'
 			})
 			.state('search.boys',{
 				url:'/boys',
-				templateUrl: '/search/boys.html',
-				controller: 'jingxuanCtrl'
+				templateUrl: '/search/boys.html'
 			})
 
 	}])
