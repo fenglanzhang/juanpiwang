@@ -1,5 +1,6 @@
-app.service('cartServ', function () {
+app.service('cartServ', function ($rootScope) {
 	var arr = [];
+	
 	this.addGoods = function (item) {
 		var flag = false
 		arr.forEach(function (good, i) {
@@ -34,6 +35,17 @@ app.service('cartServ', function () {
 	    // 如果需要分页器
 	    pagination: '.swiper-pagination',
 	  })  
+  	}
+  })
+  .service('judgeFlag', function () {
+  	this.judge = function (arr) {
+  		if (arr == []) {
+  			console.log(1)
+  			return false
+  		}else{
+  			console.log(2)
+  			return true
+  		}
   	}
   })
   

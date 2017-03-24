@@ -2,50 +2,62 @@
 		<header>
 			<p>购物车</p>
 		</header>
-		<div class="bg6"></div>
-		<div class="manjian">
-			<img src="/cart/img/manjian.jpg" id="man1">
-			<p>在凑一件可减12元<span>去凑单</span></p>
-			<img src="/cart/img/jian3.jpg"/ id="man2">
+		<div class="haveSomething" ng-show = 'flag'>
+			<div class="bg6"></div>
+			<div class="manjian">
+				<img src="/cart/img/manjian.jpg" id="man1">
+				<p>在凑一件可减12元<span>去凑单</span></p>
+				<img src="/cart/img/jian3.jpg"/ id="man2">
+			</div>
+			<div class="tianjia">
+				<figure ng-repeat = 'item in itemArr track by $index'>
+					<img src="{{item.pic_url}}"/>
+					<figcaption>
+						<p>{{item.title}}<span>￥{{item.cprice}}</span></p>
+						<p>{{item.residue}} S <span>￥{{item.oprice}}</span></p>
+						<p><b ng-click = 'sub()'>-</b><span>{{item.count}}</span><b ng-click = 'add()'>+</b></p>
+						<img src="/cart/img/cha.jpg"/ ng-click = 'del()'>
+					</figcaption>
+				</figure>
+				<!-- <figure>
+					<img src="/cart/img/girl1.jpg"/>
+					<figcaption>
+						<p>中长款条纹裙两件套<span>￥69</span></p>
+						<p>白色+黑马甲 S <span>￥298</span></p>
+						<p><b>-</b><span>1</span><b>+</b></p>
+						<img src="/cart/img/cha.jpg"/>
+					</figcaption>
+				</figure> -->
+			</div>
+			<div class="bg6"></div>
+			<div class="heji">
+				<p>合计<span>￥{{money}}</span></p>
+			</div>
+			<div class="manjian">
+				<p>已满一元送礼品，限送一次，数量有限，送完为止</p>
+			</div>
+			<div class="bg6"></div>
+			<div class="shiy">
+				<p>使用优惠卷<span>暂无可用卷</span><img src="/cart/img/jian.jpg"/></p>
+			</div>
+			<div class="bg7"></div>
+			<div class="footer1">
+				<ul>
+					<li>总金额<span>￥{{money}}</span></li>
+					<li>去结算</li>
+				</ul>
+			</div>
 		</div>
-		<div class="tianjia">
-			<figure ng-repeat = 'item in itemArr track by $index'>
-				<img src="{{item.pic_url}}"/>
-				<figcaption>
-					<p>{{item.title}}<span>￥{{item.cprice}}</span></p>
-					<p>{{item.residue}} S <span>￥{{item.oprice}}</span></p>
-					<p><b ng-click = 'sub()'>-</b><span>{{item.count}}</span><b ng-click = 'add()'>+</b></p>
-					<img src="/cart/img/cha.jpg"/ ng-click = 'del()'>
-				</figcaption>
-			</figure>
-			<!-- <figure>
-				<img src="/cart/img/girl1.jpg"/>
-				<figcaption>
-					<p>中长款条纹裙两件套<span>￥69</span></p>
-					<p>白色+黑马甲 S <span>￥298</span></p>
-					<p><b>-</b><span>1</span><b>+</b></p>
-					<img src="/cart/img/cha.jpg"/>
-				</figcaption>
-			</figure> -->
+		<div class="nothing" ng-show = '!flag'>
+			<div class="banner">
+				<img src="img/flower.jpg"/>
+			</div>
+			<div class="love">
+				<p>喜欢的就带回家吧</p>
+				<p>去登陆</p>
+			</div>
 		</div>
-		<div class="bg6"></div>
-		<div class="heji">
-			<p>合计<span>￥{{money}}</span></p>
-		</div>
-		<div class="manjian">
-			<p>已满一元送礼品，限送一次，数量有限，送完为止</p>
-		</div>
-		<div class="bg6"></div>
-		<div class="shiy">
-			<p>使用优惠卷<span>暂无可用卷</span><img src="/cart/img/jian.jpg"/></p>
-		</div>
-		<div class="bg7"></div>
-		<div class="footer1">
-			<ul>
-				<li>总金额<span>￥{{money}}</span></li>
-				<li>去结算</li>
-			</ul>
-		</div>
+		
 		
 	
 		

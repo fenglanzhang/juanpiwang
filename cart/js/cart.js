@@ -1,5 +1,7 @@
-app.controller('cartCtrl', ['$scope', 'cartServ','totalMoney', function ($scope, cartServ, totalMoney) {
+app.controller('cartCtrl', ['$scope', 'cartServ','totalMoney','$rootScope', 'judgeFlag', function ($scope, cartServ, totalMoney, $rootScope, judgeFlag) {
 	$scope.itemArr = cartServ.getGoods()
+	$scope.flag = judgeFlag.judge($scope.itemArr)
+
 	console.log($scope.itemArr)
 	function totalMoney1 () {
 		$scope.money = totalMoney.allMoney().toFixed(2)
@@ -21,5 +23,4 @@ app.controller('cartCtrl', ['$scope', 'cartServ','totalMoney', function ($scope,
 		totalMoney1()
 	}
 	totalMoney1();
-
 }])
