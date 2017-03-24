@@ -37,15 +37,15 @@ app.service('cartServ', function ($rootScope) {
 	  })  
   	}
   })
-  .service('judgeFlag', function () {
-  	this.judge = function (arr) {
-  		if (arr == []) {
-  			console.log(1)
-  			return false
-  		}else{
-  			console.log(2)
-  			return true
-  		}
-  	}
-  })
+  // .service('judgeFlag', function () {
+  // 	this.judge = function (arr) {
+  // 		if (arr == []) {
+  // 			console.log(1)
+  // 			return false
+  // 		}else{
+  // 			console.log(2)
+  // 			return true
+  // 		}
+  // 	}
+  // })
   

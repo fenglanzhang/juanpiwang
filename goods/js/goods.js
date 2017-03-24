@@ -1,15 +1,28 @@
-app.controller('goodsCtrl', ['$scope', '$stateParams', 'cartServ','goodsServ',  function ($scope, $stateParams, cartServ,goodsServ) {
+app.controller('goodsCtrl', ['$scope', '$stateParams', 'cartServ','goodsServ', '$rootScope', '$state', function ($scope, $stateParams, cartServ,goodsServ, $rootScope, $state) {
+	// console.log($rootScope.isLogin)
 	var itemStr = $stateParams.id
 	$scope.item = JSON.parse(itemStr)
-	$scope.addGoodToCart = function () {
-		cartServ.addGoods($scope.item)
-	}
-	$scope.goodsCollect = function () {
-		var goodsItem = this.item;
-		goodsServ.goodsCollect(goodsItem)
-		console.log(this.item);
+	 
+		$scope.addGoodToCart = function () {
+			if ($rootScope.isLogin) {
+				cartServ.addGoods($scope.item)
+			}else{
+				$state.go('login')
+			}
+		}
+		$scope.goodsCollect = function () {
+			var goodsItem = this.item;
+			if ($rootScope.isLogin) {
+				goodsServ.goodsCollect(goodsItem)
+			}else{
+				$state.go('login')
+			}
+			console.log(this.item);
+		
+		}
 	
-	}
+	
+	
 
 }])
 
@@ -20,7 +33,6 @@ app.controller('goodsCtrl', ['$scope', '$stateParams', 'cartServ','goodsServ',  
 		goodsArr : function () {
 			return goodsArr;
 		},
-		
 		goodsCollect : function (obj) {
 			goodsArr.push(obj);
 		}

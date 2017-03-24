@@ -75,6 +75,11 @@
 				templateUrl : '/animation/animation.html',
 				controller : 'animationCtrl'
 			})
+			.state('login', {
+				url : '/login',
+				templateUrl : '/login/login.html',
+				controller : 'loginCtrl'
+			})
 			//配置2级路由
 			.state('home.home1', {
 				url:'/home1',

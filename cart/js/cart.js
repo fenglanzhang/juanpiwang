@@ -1,8 +1,15 @@
-app.controller('cartCtrl', ['$scope', 'cartServ','totalMoney','$rootScope', 'judgeFlag', function ($scope, cartServ, totalMoney, $rootScope, judgeFlag) {
+app.controller('cartCtrl', ['$scope', 'cartServ','totalMoney','$rootScope', function ($scope, cartServ, totalMoney, $rootScope) {
 	$scope.itemArr = cartServ.getGoods()
-	$scope.flag = judgeFlag.judge($scope.itemArr)
-
-	console.log($scope.itemArr)
+	// $scope.flag = judgeFlag.judge($scope.itemArr)
+	// console.log(Boolean($scope.itemArr))
+	function judge () {
+		if ($scope.itemArr.length == 0) {
+			$scope.isShow = false
+		} else{
+			$scope.isShow = true
+		}
+	}
+	judge()
 	function totalMoney1 () {
 		$scope.money = totalMoney.allMoney().toFixed(2)
 	}
@@ -17,10 +24,13 @@ app.controller('cartCtrl', ['$scope', 'cartServ','totalMoney','$rootScope', 'jud
 			this.item.count--
 		}
 		totalMoney1()
+		judge()
+		
 	}
 	$scope.del = function () {
 		cartServ.removeGoods(this.item)
 		totalMoney1()
+		judge()
 	}
 	totalMoney1();
 }])

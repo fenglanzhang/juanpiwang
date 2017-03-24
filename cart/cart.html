@@ -2,7 +2,7 @@
 		<header>
 			<p>购物车</p>
 		</header>
-		<div class="haveSomething" ng-show = 'flag'>
+		<div class="haveSomething" ng-show = 'isShow'>
 			<div class="bg6"></div>
 			<div class="manjian">
 				<img src="/cart/img/manjian.jpg" id="man1">
@@ -48,13 +48,13 @@
 				</ul>
 			</div>
 		</div>
-		<div class="nothing" ng-show = '!flag'>
+		<div class="nothing" ng-show = '!isShow'>
 			<div class="banner">
-				<img src="img/flower.jpg"/>
+				<img src="./cart/img/flower.jpg"/>
 			</div>
 			<div class="love">
 				<p>喜欢的就带回家吧</p>
-				<p>去登陆</p>
+				<p ui-sref = 'login' ng-show = '!isLogin'>去登陆</p>
 			</div>
 		</div>
 		
