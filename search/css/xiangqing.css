@@ -1,0 +1,56 @@
+header {
+	height: 1.25rem;
+	line-height: 1.25rem;
+	border-bottom: 0.013889rem solid #ebebeb;
+}
+header span img{
+	height: 0.430556rem;
+	width: 0.25rem;
+	vertical-align: middle;
+	margin-right: 0.375rem;
+	margin-left: 0.416667rem;
+	display: inline-block;
+}                     
+header span p{
+	font-size: 0.486111rem;
+	font-weight: bold;
+	display: inline;
+	margin-left: 2.777778rem;
+}
+.store{}
+.store ul li{
+	width:5.0rem;
+	float: left;
+	margin-bottom: 0.208333rem;
+}
+.store ul li img{
+	height: 2.777778rem;
+	width: 2.777778rem;
+	margin: 0.833333rem 1.111111rem 0 1.111111rem;
+}
+.store ul li p{
+	margin-left: 0.416667rem;
+}
+.store ul li p:nth-of-type(1){
+	font-size: 0.416667rem;
+	width: 3.333333rem;
+	overflow:hidden;
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis;
+	white-space:nowrap;
+	color: brown
+	
+}
+.store ul li p:nth-of-type(2){
+	font-size: 0.347222rem;
+	margin-top: 0.2rem;
+}
+.store ul li .add{
+	font-size: 0.166667rem;
+	width: 1.2rem;
+	background:;
+	color: darkgrey;
+	outline: none;
+	float: right;
+	margin-right: 0.694444rem;
+}

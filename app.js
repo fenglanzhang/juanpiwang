@@ -81,7 +81,11 @@
 				templateUrl : '/login/login.html',
 				controller : 'loginCtrl'
 			})
-
+			.state('xiangqing',{
+				url: '/xiangqing',
+				templateUrl:'/search/xiangqing.html',
+				controller : 'xiangqingCtrl'
+			})
 			//配置2级路由
 			.state('home.home1', {
 				url:'/home1',

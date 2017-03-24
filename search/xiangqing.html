@@ -1,0 +1,18 @@
+<link rel="stylesheet" type="text/css" href="./search/css/xiangqing.css"/>
+<header>
+	<span>
+		<img src="/search/img/jian1.jpg" ui-sref= 'search'/>
+	<p>商品详情</p>
+	</span>
+</header>
+<div class="store">
+	<ul ng-repeat="item in data" ng-click="showDetial()">
+		<li>
+			<img src="{{item.pic_url}}" />
+			<p>{{item.title}}</p>
+			<p><span>￥</span>{{item.oprice}}</p>
+			<button type="button" class="add" ng-click="addGoodd()">添加</button>
+		</li>
+	</ul>
+	
+</div>

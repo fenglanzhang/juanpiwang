@@ -55,6 +55,8 @@ header>img{
 .main .main_right{
 	float: left;
 	width: 6.805556rem;
+	height:15rem;
+	overflow-y: scroll;
 	
 }
 .main .main_right figure{
