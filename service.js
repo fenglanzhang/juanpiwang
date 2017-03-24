@@ -37,12 +37,3 @@ app.service('cartServ', function () {
   	}
   })
   
-.service('showServ', [function () {
-	$scope.showShop = function () {
-		console.log(this);
-		$state.go('shop', {id:JSON.stringify(this.item)});
-	}
-	$scope.showGoods = function () {
-		$state.go('goods',{id: JSON.stringify(this.item)})
-	}
-}])
