@@ -3,8 +3,16 @@
 	
 		<div class="every_goods">
 			<img src="{{item.pic_url}}">
-			    
-			
+
+		    <img src="../img/ht.png" class="reback common" onclick="history.back()"/>
+			<img src="../img/regft.png" class="list common" ng-click="listFn()"/>
+			<div class="mylist" ng-show="flag" > 
+				<ul>
+					<li><a ui-sref="home">首页</a></li>
+					<li><a ui-sref="shopCollect">我的收藏</a></li>
+					<li><a ui-sref="order">我的订单</a></li>
+				</ul>
+			</div>
 			<div class="info1 clear">
 				<p>{{item.title}}</p>
 				<p><span>￥<strong>{{item.cprice}}</strong></span><del><small>￥{{item.oprice}}</small></del><span>运费{{item.shipping}}元</span></p>
@@ -49,6 +57,10 @@
 					<p>圆通快递，中通快递，韵达快递，百世汇通，邮政包裹速递</p>
 					<p><span>卷皮全仓商品单笔订单满29元可免运费</span>戳下方按钮查看更多商家宝贝</p>
 				</div>
+			</div>
+			<div class="btn"> 
+					<a ui-sref="shop"><button>进入店铺</button></a>
+					<a ui-sref="cang"><button>进入生活仓库</button></a>
 			</div>
 			<div class="bottom">
 				<img src="/goods/img/collect.jpg" alt="" ng-click='goodsCollect()'>

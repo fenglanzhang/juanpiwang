@@ -1,44 +1,35 @@
-<link rel="stylesheet" type="text/css" href="/cang/css/cang.css"/>
-		<li class="life_content">
+		<link rel="stylesheet" type="text/css" href="/cang/css/cang.css"/>
+		<div class="life_content" ng-controller="cangCtrl"> 
 			<header class="bg">
 				<span>生活仓库</span>
-				<a href="###"></a>
+				<a ui-sref="search"></a>
 			</header>
 			<nav class="menu bg">
 					<ul>
-						<li><a  ui-sref="jx">精选</a></li>
-						<li><a  ui-sref="jx">日用</a></li>
-						<li><a  ui-sref="jx">餐厨</a></li>
-						<li><a  ui-sref="jx">清洁收纳</a></li>
-						<li><a  ui-sref="jx">数码家电</a></li>
-						<li><a  ui-sref="jx">起居</a></li>
-						<li><a  ui-sref="jx">洗护卫浴</a></li>
-						<li><a ui-sref="jx">装扮</a></li>
-						<li><a  ui-sref="jx">美食</a></li>
-						<li><a ui-sref="jx">母婴健康</a></li>
+						<li><a ui-sref="cang.jingxuan">精选</a></li>
+						<li><a ui-sref="cang.riyong">日用</a></li>
+						<li><a ui-sref="cang.canchu">餐厨</a></li>
+						<li><a ui-sref="cang.qingjie">清洁收纳</a></li>
+						<li><a ui-sref="cang.jingxuan">数码家电</a></li>
+						<li><a ui-sref="cang.jingxuan">起居</a></li>
+						<li><a ui-sref="cang.jingxuan">洗护卫浴</a></li>
+						<li><a ui-sref="cang.jingxuan">装扮</a></li>
+						<li><a ui-sref="cang.jingxuan">美食</a></li>
+						<li><a ui-sref="cang.jingxuan">母婴健康</a></li>
 					</ul>
 			</nav>
 			<div class="images clear">
-				<img src="/cang/img/sderv.png">
-				<img src= "/cang/img/rgrdth.png"/>
+				<img src="../img/sderv.png">
+				<img src= "../img/rgrdth.png"/>
 			</div>
 			<div class="images2 ">
-				<img src="/cang/img/dsf.jpg" />
-				<img src="/cang/img/fg.jpg">
-				<img src="/cang/img/regtvr.jpg">
+				<img src="../img/dsf.jpg" />
+				<img src="../img/fg.jpg">
+				<img src="../img/regtvr.jpg">
 			</div>
 			<div class="images3">
-				<img src="/cang/img/ffg.jpg">
+				<img src="../img/ffg.jpg">
 			</div>
 				<p class="bg">-每天早10点.晚8点上新</p>
-				<section class="firstFloor">
-					<ul>
-						<li ng-repeat="items in data"/>
-							<img src="{{ items.picurl }}"/>
-							<p>{{ items.cprice}}<span>{{ items.residue }}</span></p>
-							<p>{{ items.title }}</p>
-						</li>
-					</ul>
-			</section>
+				<div  class="clear" ui-view></div>
 		</div>
-		

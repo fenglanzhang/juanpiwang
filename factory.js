@@ -79,3 +79,13 @@ app.factory('homeFac', ['$http', function ($http) {
 			}
 		}
 	}])
+	.factory('cangFac', ['$http', function ($http) {
+		return {
+			getData1 : function () {
+				return $http.get('/data/livingHomeCookhouseGoodsData.json')
+			},
+			getData2 : function () {
+				return $http.get('/data/livingHomeDepartmentGoodsData.json')
+			}
+		}
+	}])

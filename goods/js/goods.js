@@ -1,6 +1,11 @@
 app.controller('goodsCtrl', ['$scope', '$stateParams', 'cartServ','goodsServ', '$rootScope', '$state', function ($scope, $stateParams, cartServ,goodsServ, $rootScope, $state) {
 	// console.log($rootScope.isLogin)
+	$scope.flag=false;
+	
 	var itemStr = $stateParams.id
+	$scope.listFn = function(){
+		$scope.flag=!$scope.flag;
+	}
 	$scope.item = JSON.parse(itemStr)
 	 
 		$scope.addGoodToCart = function () {

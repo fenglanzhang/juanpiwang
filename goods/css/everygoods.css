@@ -1,6 +1,61 @@
+.every_goods{
+	height: 30.0rem;
+}
 .every_goods  .swiper-container{
 	 width: 10.0rem;
      height: 10.0rem;
+     position: relative;
+}
+.every_goods .common{
+	position:fixed;
+	top: 0.266667rem;
+	z-index: 99;
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.every_goods .list{
+	right: 0.266667rem;
+	
+}
+.every_goods .mylist{
+	position: absolute;
+	right: 0;
+	top: 1.3rem;
+	z-index: 99;
+	width: 3.2rem;
+	background-color: #342719;
+	opacity: 0.8;
+}
+.every_goods .mylist ul{
+	width:2.733333rem;
+	margin: 0 auto;
+}
+.every_goods .mylist li{
+	width:2.733333rem;
+	border-bottom: 0.026667rem solid #7e7460;
+	height: 1.2rem;
+	line-height:  1.2rem;
+	font-size: 0.426667rem;
+}
+.every_goods .mylist li a{
+	display: block;
+	color: #FFFFFF;
+	text-indent: 0.966667rem;
+}
+.every_goods .mylist li:nth-of-type(1) a{
+	background:url(../../img/cf.png) no-repeat left center;	
+	background-size:0.64rem 0.64rem; 
+}
+.every_goods .mylist li:nth-of-type(2) a{
+	background:url(../../img/xin.png) no-repeat left center;	
+	background-size:0.64rem 0.64rem; 
+}
+.every_goods .mylist li:nth-of-type(3) a{
+	background:url(../../img/ng.png) no-repeat left center;	
+	background-size:0.64rem 0.64rem; 
+}
+.every_goods .reback{
+	left: 0.266667rem;
 }
 .every_goods  .swiper-container img{
 	 width: 10.0rem;
@@ -10,6 +65,9 @@
  	text-indent: 0.266667rem;
  	line-height:0.7rem;
  }
+  .every_goods .info1 p strong{
+  	font-size: 0.48rem;
+  }
  .every_goods .info1 p:nth-of-type(1){
  	font-size: 0.48rem;
  	line-height:1.44rem;
@@ -32,7 +90,8 @@
 	border-top: 0.026667rem solid #A4A4A4;
 }
 .every_goods .info2 p{
-	line-height: 0.586667rem;
+	line-height: 0.786667rem;
+	
 }
 .every_goods .info2 p:nth-of-type(1) span{
 	font-size: 0.426667rem;
@@ -41,10 +100,12 @@
 .every_goods .info2 p:nth-of-type(2) span{
 	border:0.026667rem solid #ff7077;
 	display: inline-block;
-	text-align: left;
-	width: 0.953333rem;
-	height: 0.473333rem;
-	margin: 0 0.213333rem 0 0.973333rem;
+	text-indent: initial;
+	margin-left:1.1rem;
+	margin-right: 0.2rem;
+	width: 0.703333rem;
+	height: 0.573333rem;
+	line-height: 0.573333rem;
 }
 .every_goods .info2 a{
 	display: block;
@@ -52,7 +113,6 @@
 	width: 10.0rem;
 	line-height: 1.226667rem; 
 	border-top: 0.026667rem solid #b7b7b7;
-	margin-bottom:0.32rem; 
 }
 .every_goods .info2 a img{
 	margin: 0 0 0 0.366667rem;
@@ -61,6 +121,11 @@
 }
 .every_goods .guige{
 	padding: 0 0.133333rem 0 0.133333rem;
+		margin-bottom: 0.6rem;
+}
+.every_goods .guige>p ,.every_goods .dp figcaption p{
+	line-height: 0.8rem;
+	font-size: 0.373333rem;
 }
 .every_goods .guige div{
 	border: 1px solid #b7b7b7;
@@ -77,7 +142,6 @@
 }
 .every_goods .guige div p:nth-of-type(2){
 	background-color:#f7f7f7;
-	
 }
 .every_goods .dp{
 	width: 100%;
@@ -87,36 +151,50 @@
 	width: 2.32rem;
 	height: 1.2rem;
 }
+.every_goods .dp figcaption span{
+	background-color: darkorange;
+	color: #FFFFFF;
+} 
 .every_goods .dp div{
 	float: left;
-	text-align: center;
-	height: 1.066667rem;
+	height: 2.866667rem;
 }
 .every_goods .dp div:nth-of-type(1){
 width:1.866667rem;
 }
 .every_goods .dp div:nth-of-type(2){
 width:8.133333rem;
-text-align: left;
 }
-.bottom{
-	height: 1.208333rem;
-	width: 10rem;
-	margin-bottom: 2.777778rem;
+.every_goods .btn{
+	text-align: center;
 }
-.bottom img{
+.every_goods button{
+	margin-right: 0.7rem;
+}
+/*购物车*/
+.buycar{
+	position: fixed;
+	bottom: 1.8rem;
+	left: 0;
+	right: 0;
+}
+.buycar section img{
+	width: 0.84rem;
+	height: 0.84rem;
+	margin-top:0.32rem; 
+}
+.buycar section{
+	border: 0.026667rem solid #F7F7F7;
+	text-align: center;
+	width: 2.453333rem;
+	height:1.92rem;
 	float: left;
 }
-.bottom img:nth-of-type(1){
-	width: 1.888889rem;
-	height: 1.208333rem;
-}
-.bottom img:nth-of-type(2){
-	width: 2.083333rem;
-	height: 1.208333rem;
-}
-.bottom img:nth-of-type(3){
-	width: 5.986111rem;
-	height: 1.208333rem;
+.buycar section button{
+	width: 5.066667rem;
+	height:1.92rem;
+	background-color:#ff464e;
+	outline: none;
+	border: none;
 }
 

@@ -10,6 +10,7 @@
 
 		$urlRouterProvider.when('/search', 'search/jingxuan')
 
+		$urlRouterProvider.when("/cang","cang/jingxuan");
 		// //配置相关路由
 		$stateProvider
 			.state('home', {
@@ -80,6 +81,7 @@
 				templateUrl : '/login/login.html',
 				controller : 'loginCtrl'
 			})
+
 			//配置2级路由
 			.state('home.home1', {
 				url:'/home1',
@@ -94,6 +96,24 @@
 				templateUrl : '/home/home3.html'
 			})
 
+			// 直发仓二级路由
+			.state('cang.jingxuan',{
+					url:'/jingxuan',
+					templateUrl:'/cang/jingxuan.html'
+			})
+			.state('cang.riyong',{
+				url:'/riyong',
+				templateUrl:'/cang/riyong.html'
+			})
+			.state('cang.qingjie',{
+				url:'/qingjie',
+				templateUrl:'/cang/qingjie.html',
+			})
+			.state('cang.canchu',{
+				url:'/canchu',
+				templateUrl:'/cang/canchu.html',
+			})
+// 
 			.state('shopCollect.shopCollectFst', {
 				url : '/shopCollectFst',
 				templateUrl : '/shopCollect/shopCollectFst.html',
