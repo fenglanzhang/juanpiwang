@@ -8,11 +8,11 @@
 			<div class="goodsInfo">
 				<div class="goodsPrice"><span class="newPrice">34</span><span class="oldPrice"><del>45</del></span><span class="day">剩两天</span></div>
 				<div class="goodsName">榛仁巧克力糖(250g)</div>
-				<div class="btn" ng-click="addGoods()">加入购物车</div>
+				<div class="btn" ng-click="addGoods()">加入购物车</div>                                       
 			</div>
 		</a>
 		
-		<a href="" class="goods" ng-repeat="item in data">
+		<a href="" class="goods" ng-repeat="item in data track by $index">
 			<div class="goodsImg"><img src="{{ item.pic_url }}"/></div>
 			<div class="goodsInfo">
 				<div class="goodsPrice"><span class="newPrice">{{ item.cprice }}</span><span class="oldPrice"><del>{{ item.oprice }}</del></span><span class="day">剩两天</span></div>
