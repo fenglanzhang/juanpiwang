@@ -86,6 +86,11 @@
 				templateUrl:'/search/xiangqing.html',
 				controller : 'xiangqingCtrl'
 			})
+			.state('filter', {
+				url : '/filter',
+				templateUrl : '/filter/filter.html',
+				controller : 'filterCtrl'
+			})
 			//配置2级路由
 			.state('home.home1', {
 				url:'/home1',
@@ -146,6 +151,7 @@
 				url:'/boys',
 				templateUrl: '/search/boys.html'
 			})
+
 
 	}])
 	.run(['$window', '$rootScope', function ($window, $rootScope) {
