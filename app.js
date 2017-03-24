@@ -3,7 +3,7 @@
 	app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
 		
 		//路由重定向
-		$urlRouterProvider.when('', 'home');
+		$urlRouterProvider.when('', 'animation');
 		$urlRouterProvider.when('/home', 'home/home1')
 
 		$urlRouterProvider.when('/shopCollect', 'shopCollect/shopCollectFst')
@@ -70,6 +70,11 @@
 				templateUrl : '/limit/limit.html',
 				controller :　'limitCtrl'
 			})
+			.state('animation', {
+				url : '/animation',
+				templateUrl : '/animation/animation.html',
+				controller : 'animationCtrl'
+			})
 			//配置2级路由
 			.state('home.home1', {
 				url:'/home1',
@@ -114,7 +119,7 @@
 				templateUrl: '/search/boys.html',
 				controller: 'jingxuanCtrl'
 			})
-<<<<<<< HEAD
+
 
 	}])
 	.run(['$window', '$rootScope', function ($window, $rootScope) {
@@ -125,6 +130,4 @@
 				$rootScope.rootIsShow = false;
 			}
 		})
-=======
->>>>>>> e3774928d7270eae1597af82dff7b778f38b39f5
 	}])
