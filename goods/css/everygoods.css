@@ -6,8 +6,12 @@
      height: 10.0rem;
      position: relative;
 }
+.every_goods>img{
+	width: 10.0rem;
+	height: 10.0rem;
+}
 .every_goods .common{
-	position:fixed;
+	position:absolute;
 	top: 0.266667rem;
 	z-index: 99;
 	width: 0.8rem;
@@ -121,7 +125,7 @@
 }
 .every_goods .guige{
 	padding: 0 0.133333rem 0 0.133333rem;
-		margin-bottom: 0.6rem;
+	margin-bottom: 0.6rem;
 }
 .every_goods .guige>p ,.every_goods .dp figcaption p{
 	line-height: 0.8rem;
@@ -172,7 +176,7 @@ width:8.133333rem;
 	margin-right: 0.7rem;
 }
 /*购物车*/
-.buycar{
+/*.buycar{
 	position: fixed;
 	bottom: 1.8rem;
 	left: 0;
@@ -196,5 +200,23 @@ width:8.133333rem;
 	background-color:#ff464e;
 	outline: none;
 	border: none;
+}
+*/
+.bottom{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom:0;
+	display: flex;
+	justify-content:space-around;
+	align-items:bottom;
+	width: 100%;
+	height: 1.52rem;
+}
+.bottom img:nth-of-type(1),.bottom img:nth-of-type(2){
+	width: 25%;
+}
+.bottom img:nth-of-type(3){
+	width: 50%;
 }
 
