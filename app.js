@@ -119,7 +119,6 @@
 				templateUrl: '/search/boys.html',
 				controller: 'jingxuanCtrl'
 			})
-<<<<<<< HEAD
 
 =======
 >>>>>>> 01503d1cab810c8008f29e1f39f02fcfb7ea573f
