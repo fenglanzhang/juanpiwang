@@ -34,3 +34,6 @@ app.controller('cartCtrl', ['$scope', 'cartServ','totalMoney','$rootScope', func
 	}
 	totalMoney1();
 }])
+
+
+

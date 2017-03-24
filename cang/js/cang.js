@@ -17,12 +17,18 @@ app.controller("cangCtrl",['$scope','$http','$state','cangFac', function($scope,
 	// 	$scope.date4=response.list;
 	// });
 	cangFac.getData1().then(function (response) {
-		console.log(response)
+		console.log(response.data.list)
+
 		$scope.date = response.data.list
 	})
 	cangFac.getData2().then(function (response) {
-		console.log(response)
 		$scope.date2 = response.data.list
+	})
+	cangFac.getData3().then(function (response) {
+		$scope.date3 = response.data.list
+	})
+	cangFac.getData4().then(function (response) {
+		$scope.date4 = response.data.list
 	})
 	$scope.showGoods=function(){
 		$state.go('goods',{ id:JSON.stringify(this.items) });

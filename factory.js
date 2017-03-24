@@ -86,6 +86,12 @@ app.factory('homeFac', ['$http', function ($http) {
 			},
 			getData2 : function () {
 				return $http.get('/data/livingHomeDepartmentGoodsData.json')
+			},
+			getData3 : function () {
+				return $http.get('/data/livingHomeGoodsData.json')
+			},
+			getData4 : function () {
+				return $http.get('/data/global-03.json')
 			}
 		}
 	}])

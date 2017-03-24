@@ -1,11 +1,11 @@
+
 <section class="firstFloor">
-					<ul>
-						<li ng-repeat="items in date" ng-click="showGoods()">
-							<img src="{{ items.pic_url }}"/>
-							<p><span>￥{{ items.cprice }}</span> <strike>￥{{ items.oprice }}</strike>  <span>{{ items.status }}</span>
-							<p>{{ items.title }}</p>
-							<span></span>
-						</li>
-					</ul>
-			</section>
-			
+		<ul>
+			<li ng-repeat="items in date2" ng-click="showGoods()">
+				<img src="{{ items.pic_url }}"/>
+				<p><span>￥{{ items.cprice }}</span> <strike>￥{{ items.oprice }}</strike> \<span>{{ items.status }}</span>
+				<p>{{ items.title }}</p>
+				<span></span>
+			</li>
+		</ul>
+</section>

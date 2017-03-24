@@ -1,4 +1,4 @@
-app.controller('searchCtrl', ['$scope', 'searchFac', function($scope, searchFac) {
+app.controller('searchCtrl', ['$scope', 'searchFac','$state', function($scope, searchFac, $state) {
 	var arr= document.querySelectorAll("a");
 	for(var i=0; i<arr.length;i++){
 		arr[i].onclick = function (){
@@ -20,5 +20,7 @@ app.controller('searchCtrl', ['$scope', 'searchFac', function($scope, searchFac)
 		$scope.data3 = data.data.data
 		console.log(data.data.data)
 	})
-	
+	$scope.jumpFilter = function () {
+		$state.go('filter')
+	}
 }]);

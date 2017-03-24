@@ -23,7 +23,9 @@ header>span input{
 header>img{
 	position: absolute;
 	left: 1.388889rem;
-	top: 0.277778rem;
+	top: 0.32rem;
+	width: 0.5rem;
+	height:0.5rem;
 }
 .main{
 	width: 10.0rem;
@@ -55,6 +57,8 @@ header>img{
 .main .main_right{
 	float: left;
 	width: 6.805556rem;
+	height:15rem;
+	overflow-y: scroll;
 	
 }
 .main .main_right figure{

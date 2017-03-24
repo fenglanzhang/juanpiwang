@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="./filter/css/filter.css">
+<div class="header">
+	<img src="./filter/img/back_arrow.jpg" alt="">
+	<input type="text" placeholder ='搜索商品' ng-model='goodsName' >
+</div>
+<div class="goods_list" ng-repeat = 'item in data | filter : goodsName'>
+	<figure>
+		<img src='{{item.pic_url}}'/>
+		<figcaption>
+			<p><b>￥{{item.cprice}}</b>{{item.title}}</p>
+			<p>{{item.residue}}<i>￥{{item.oprice}}</i></p>
+			<p ng-click = 'showGoods()'>立即抢购</p>
+		</figcaption>
+	</figure>
+	<!-- <figure>
+		<img src="./filter/img/pic.jpg"/>
+		<figcaption>
+			<p><b>￥248</b>其实文件第五期</p>
+			<p>大家期<i>￥467</i></p>
+			<p ng-click = 'showGoods()'>立即抢购</p>
+		</figcaption>
+	</figure> -->
+</div>
