@@ -53,8 +53,9 @@ app.service('cartServ', function ($rootScope) {
   			}
   		}
   		if(!flag) {
-  			userArr.push(userObj)
+  			this.userArr.push(userObj)
   			return alert('注册成功')
+  			
   		} 
   	}
   })

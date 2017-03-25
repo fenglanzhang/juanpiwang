@@ -8,5 +8,8 @@ app.controller('loginCtrl',['$scope', '$state','$rootScope', 'loginUser', functi
 			}
 		}
 		alert('用户名密码错误')
+		// var userObj = {userName : $scope.userName, password : $scope.password}
+		// loginUser.addUser(userObj)
+		// console.log(loginUser.userArr)
 	}
 }])

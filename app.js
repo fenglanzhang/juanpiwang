@@ -187,3 +187,38 @@
 			}
 		})
 	}])
+	.run(['$window', '$rootScope', function ($window, $rootScope) {
+		$rootScope.$on('$locationChangeSuccess', function () {
+			if ($window.location.href.indexOf('home') != -1) {
+				$rootScope.homeClass = true;
+
+			}else{
+				$rootScope.homeClass = false;
+			}
+			if ($window.location.href.indexOf('cang') != -1) {
+				$rootScope.cangClass = true;
+				
+			}else{
+				$rootScope.cangClass = false;
+			}
+			if ($window.location.href.indexOf('global') != -1) {
+				$rootScope.globalClass = true;
+				
+			}else{
+				$rootScope.globalClass = false;
+			}
+			if ($window.location.href.indexOf('cart') != -1) {
+				$rootScope.cartClass = true;
+				
+			}else{
+				$rootScope.cartClass = false;
+			}
+			if ($window.location.href.indexOf('mine') != -1) {
+				$rootScope.mineClass = true;
+				
+			}else{
+				$rootScope.mineClass = false;
+			}
+
+		})
+	}])
