@@ -37,15 +37,26 @@ app.service('cartServ', function ($rootScope) {
 	  })  
   	}
   })
-  // .service('judgeFlag', function () {
-  // 	this.judge = function (arr) {
-  // 		if (arr == []) {
-  // 			console.log(1)
-  // 			return false
-  // 		}else{
-  // 			console.log(2)
-  // 			return true
-  // 		}
-  // 	}
-  // })
+  .service('loginUser', function () {
+  	this.userArr = [
+  		{userName : 'lzx', password : '123456'},
+  		{userName : 'zyx', password : '123456'},
+  		{userName : 'zfl', password : '123456'},
+  		{userName : 'wxy', password : '123456'}
+  	]
+  	this.addUser = function (userObj) {
+  		var flag = false;
+  		for (user of this.userArr) {
+  			if (user.userName == userObj.userName) {
+  				flag = true;
+  				return alert('用户名已存在')
+  			}
+  		}
+  		if(!flag) {
+  			this.userArr.push(userObj)
+  			return alert('注册成功')
+  			
+  		} 
+  	}
+  })
   

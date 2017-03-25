@@ -1,10 +1,15 @@
-app.controller('loginCtrl',['$scope', '$state','$rootScope', function ($scope, $state, $rootScope) {
+app.controller('loginCtrl',['$scope', '$state','$rootScope', 'loginUser', function ($scope, $state, $rootScope, loginUser) {
 	$scope.login = function () {
-		if ($scope.userName == 'goodboy' || $scope.password == 'goodgirl') {
-			$rootScope.isLogin = true;
-			$state.go('cart')
-		}else{
-			alert('登录错误')
+		for (user of loginUser.userArr) {
+			if ($scope.userName == user.userName && $scope.password == user.password) {
+				$rootScope.isLogin = true;
+				$state.go('cart')
+				return
+			}
 		}
+		alert('用户名密码错误')
+		// var userObj = {userName : $scope.userName, password : $scope.password}
+		// loginUser.addUser(userObj)
+		// console.log(loginUser.userArr)
 	}
 }])

@@ -20,5 +20,4 @@ app.controller('globalCtrl', ['$scope', '$http','$stateParams','lunbo', 'show',f
 		var item = this.items;
 		show.showGoods(item);
 	}
-	console.log($scope.$stateParams);
 }])

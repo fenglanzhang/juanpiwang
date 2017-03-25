@@ -1,5 +1,5 @@
 .tabBar{
-	height: 1.5625rem;
+	height: 1.5rem;
 	width: 10rem;
 	position: fixed;
 	right: 0;
@@ -9,15 +9,56 @@
 	text-align: center;
 	justify-content :space-around;
 	background: #f4f3f8;
+	padding: 0.1rem 0 0.2rem 0;
 }
-.tabBar a img{
-	width: 1.0rem;
-	height: 1.0rem;
+.tabBar a{
+	display: inline-block;
+	width: 2.5rem;
+	height: 7rem;
+	/*background:  url('/common/img/bottom1.png') no-repeat center top;*/
+	background-size: 1rem 1rem;
+}
+
+
+.changeClass1{
+	background: url('/common/img/bottom1.png') no-repeat center top;
+	background-size: 1rem 1rem;
+
+}
+.changeClass01{
+	background: url('/common/img/bottom01.png') no-repeat center top;
+	background-size: 1rem 1rem;
+}
+.changeClass2{
+	background: url('/common/img/bottom2.png') no-repeat center top;
+}
+.changeClass02{
+	background: url('/common/img/bottom02.png') no-repeat center top;
+}
+.changeClass3{
+	background: url('/common/img/bottom3.png') no-repeat center top;
+}
+.changeClass03{
+	background: url('/common/img/bottom03.png') no-repeat center top;
+}
+.changeClass4{
+	background: url('/common/img/bottom4.png') no-repeat center top;
+}
+.changeClass04{
+	background: url('/common/img/bottom04.png') no-repeat center top;
+}
+.changeClass5{
+	background: url('/common/img/bottom5.png') no-repeat center top;
+}
+.changeClass05{
+	background: url('/common/img/bottom05.png') no-repeat center top;
 }
 .tabBar a p{
 	font-size: 0.222222rem;
 	line-height: 0.416667rem;
 	text-align: center;
+	margin-top: 1.3rem;
+	margin-bottom: 0.1rem;
 }
 .class1{
 	/*background-color: yellow;*/
