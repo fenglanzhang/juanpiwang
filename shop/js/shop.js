@@ -3,10 +3,7 @@ app.controller('shopCtrl', ['$http', '$scope', '$stateParams','$state','collectS
 	// var flag = false;
 	$scope.item = JSON.parse(itemStr);
 	var itemObj = $scope.item
-	console.log("************************");
-	console.log(collectServ.collectArr());
-	console.log(collectServ.src());		
-	console.log(collectServ.collectArr().indexOf($scope.item))
+
 	
 	$scope.src = collectServ.src($scope.item);
 	
@@ -20,47 +17,7 @@ app.controller('shopCtrl', ['$http', '$scope', '$stateParams','$state','collectS
 		$scope.src = collectServ.src($scope.item);
 		// collectServ.collectItemFn($scope.item);
 		collectServ.addCollect($scope.item)
-		console.log(collectServ.collectArr());
-		console.log(collectServ.src());
-		console.log(collectServ.collectArr().indexOf($scope.item))
+
 	}
 }])
 
-// app.factory('collectServ',[ function () {
-// 	var collectArr = [];
-// 	return {
-// 		collectArr : function () {
-// 			return collectArr;
-// 		},
-		
-// 		src : function (item) {
-// 			if(item) {
-// 				console.log(item.flag)
-// 				if(item.flag) {
-// 					src="/shop/img/collect-hover.png";
-// 				}else{
-// 					src="/shop/img/collect.png";
-// 				}
-// 			}else{
-// 				src="/shop/img/collect.png";
-// 			}
-	
-			
-// 			return src;
-// 		},
-		
-// 		collectItemFn : function(item) {
-// 			if(collectArr.indexOf(item) == -1){
-// 				collectArr.push(item);
-				
-// 			}else{
-// 				collectArr.splice(collectArr.indexOf(item),1);
-// 			}
-			
-// 			return collectArr;
-// 		},
-		
-		
-		
-// 	}
-// }])
