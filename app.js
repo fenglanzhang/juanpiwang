@@ -91,6 +91,11 @@
 				templateUrl : '/filter/filter.html',
 				controller : 'filterCtrl'
 			})
+			.state('zhuce', {
+				url:'/zhuce',
+				templateUrl : '/zhuce/zhuce.html',
+				controller : 'zhuceCtrl'
+			})
 			//配置2级路由
 			.state('home.home1', {
 				url:'/home1',
