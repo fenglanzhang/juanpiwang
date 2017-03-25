@@ -2,7 +2,7 @@ app.controller('shopCtrl', ['$http', '$scope', '$stateParams','$state','collectS
 	var itemStr = $stateParams.id;
 	// var flag = false;
 	$scope.item = JSON.parse(itemStr);
-	
+	var itemObj = $scope.item
 	console.log("************************");
 	console.log(collectServ.collectArr());
 	console.log(collectServ.src());		
@@ -16,10 +16,10 @@ app.controller('shopCtrl', ['$http', '$scope', '$stateParams','$state','collectS
 	
 	$scope.collectFn = function () {
 		$scope.item = this.item;
-		$scope.item.flag = true; 
-		$scope.src = collectServ.src($scope.item,this.flag);
-		collectServ.collectItemFn($scope.item);
-
+		$scope.item.flag = !$scope.item.flag; 
+		$scope.src = collectServ.src($scope.item);
+		// collectServ.collectItemFn($scope.item);
+		collectServ.addCollect($scope.item)
 		console.log(collectServ.collectArr());
 		console.log(collectServ.src());
 		console.log(collectServ.collectArr().indexOf($scope.item))

@@ -117,14 +117,19 @@ app.factory('homeFac', ['$http', function ($http) {
 				
 				return src;
 			},
-			
-			collectItemFn : function(item) {
-				if(collectArr.indexOf(item) == -1){
-					collectArr.push(item);
-					
-				}else{
-					collectArr.splice(collectArr.indexOf(item),1);
+			addCollect : function (item) {
+				for (var shop of collectArr) {
+					if (shop.brand_id == item.brand_id) {
+
+						collectArr.splice(collectArr.indexOf(shop),1);
+						return
+
+					}
 				}
+				collectArr.push(item);
+
+			},
+			collectItemFn : function(item) {
 				
 				return collectArr;
 			},
