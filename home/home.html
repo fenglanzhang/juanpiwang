@@ -8,14 +8,14 @@
 	</div>
 	<nav>
 		<div class="show_list">
-			<a ui-sref="home.home1" class="showListClick">上新</a>
-			<a ui-sref="home.home2">女装</a>
-			<a ui-sref="home.home3">鞋包</a>
-			<a ui-sref="home.home4">母婴</a>
-			<a ui-serf="home.home5">居家数码</a>
-			<a ui-serf="home.home6">男士</a>
-			<a ui-serf="home.home7">美妆</a>
-			<a ui-serf="home.home8">美食</a>
+			<a ui-sref="home.home1" ng-class="{true :'showListClick', false : ''}[home1Class]">上新</a>
+			<a ui-sref="home.home2" ng-class="{true :'showListClick', false : ''}[home2Class]">女装</a>
+			<a ui-sref="home.home3" ng-class="{true :'showListClick', false : ''}[home3Class]">鞋包</a>
+			<a ui-sref="home.home4" ng-class="{true :'showListClick', false : ''}[home4Class]">母婴</a>
+			<a ui-sef="home.home1">居家数码</a>
+			<a ui-sef="home.home2">男士</a>
+			<a ui-sef="home.home3">美妆</a>
+			<a ui-sef="home.home4">美食</a>
 		</div>
 	</nav>
 	<div ui-view></div>

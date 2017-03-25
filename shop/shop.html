@@ -32,18 +32,18 @@
 		</div>
 	</div>
 	<ul class="rank_list">
-		<li>综合</li>
-		<li>人气</li>
-		<li>销量</li>
-		<li>仅看有货</li>
+		<li ng-click = 'changeAttr("cprice")'>综合</li>
+		<li ng-click = 'changeAttr("goods_id")'>人气</li>
+		<li ng-click = 'changeAttr("title")'>销量</li>
+		<li ng-click = 'filterAttr(6)'>仅看有货</li>
 	</ul>
 	<div class="grayTime">
 		<p>距离结束还剩</p>
-		<p>6天21小时37分18秒</p>
+		<p>{{time}}</p>
 	</div>
 	<div class="goods_detail_list">
 		<div class="container">
-			<figure ng-repeat = 'items in item.shop_goods' ng-click = 'showGoods()'>
+			<figure ng-repeat = 'items in item.shop_goods | orderBy : attribute | limitTo : num' ng-click = 'showGoods()'>
 				<img src="{{items.pic_url}}" alt="">
 				<figcaption>
 					<p>
