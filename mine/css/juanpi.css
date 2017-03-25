@@ -71,7 +71,6 @@
 	border-bottom: 0.013889rem solid #ededed;
 	margin-left: 0.555556rem;
 	font-size: 0.347222rem;
-	font-weight: bold;
 }
 .wode p:nth-of-type(1){
 	float: left;
@@ -114,11 +113,10 @@
 	margin-top: 0.458333rem;
 }
 .fukuan ul li{
-	font-size: 0.416667rem;
+	font-size: 0.38rem;
 	height: 1.25rem;
 	line-height: 1.25rem;
 	color: #2e2e2e;
-	font-weight: bold;
 	border-bottom: 0.013889rem solid #f7f7f7;
 }
 .bg2{
