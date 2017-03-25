@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="./filter/css/filter.css">
 <div class="header">
-	<img src="./filter/img/back_arrow.jpg" alt="">
+	<img src="./filter/img/back_arrow.jpg" alt="" onclick="history.back()">
 	<input type="text" placeholder ='搜索商品' ng-model='goodsName' >
 </div>
 <div class="goods_list" ng-repeat = 'item in data | filter : goodsName'>

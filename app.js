@@ -163,3 +163,27 @@
 			}
 		})
 	}])
+	.run(['$window', '$rootScope', function ($window, $rootScope) {
+		$rootScope.$on('$locationChangeSuccess', function () {
+			if ($window.location.href.indexOf('home1') != -1) {
+				$rootScope.home1Class = true;
+			}else{
+				$rootScope.home1Class = false;
+			}
+			if ($window.location.href.indexOf('home2') != -1) {
+				$rootScope.home2Class = true;
+			}else{
+				$rootScope.home2Class = false;
+			}
+			if ($window.location.href.indexOf('home3') != -1) {
+				$rootScope.home3Class = true;
+			}else{
+				$rootScope.home3Class = false;
+			}
+			if ($window.location.href.indexOf('home4') != -1) {
+				$rootScope.home4Class = true;
+			}else{
+				$rootScope.home4Class = false;
+			}
+		})
+	}])
