@@ -95,3 +95,41 @@ app.factory('homeFac', ['$http', function ($http) {
 			}
 		}
 	}])
+	.factory('collectServ',[ function () {
+		var collectArr = [];
+		return {
+			collectArr : function () {
+				return collectArr;
+			},
+			
+			src : function (item) {
+				if(item) {
+					console.log(item.flag)
+					if(item.flag) {
+						src="/shop/img/collect-hover.png";
+					}else{
+						src="/shop/img/collect.png";
+					}
+				}else{
+					src="/shop/img/collect.png";
+				}
+		
+				
+				return src;
+			},
+			
+			collectItemFn : function(item) {
+				if(collectArr.indexOf(item) == -1){
+					collectArr.push(item);
+					
+				}else{
+					collectArr.splice(collectArr.indexOf(item),1);
+				}
+				
+				return collectArr;
+			},
+			
+			
+			
+		}
+	}])
