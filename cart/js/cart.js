@@ -1,4 +1,4 @@
-app.controller('cartCtrl', ['$scope', 'cartServ','totalMoney','$rootScope', function ($scope, cartServ, totalMoney, $rootScope) {
+app.controller('cartCtrl', ['$scope', 'cartServ','totalMoney','$rootScope', '$state', function ($scope, cartServ, totalMoney, $rootScope, $state) {
 	$scope.itemArr = cartServ.getGoods()
 	// $scope.flag = judgeFlag.judge($scope.itemArr)
 	// console.log(Boolean($scope.itemArr))
@@ -33,6 +33,9 @@ app.controller('cartCtrl', ['$scope', 'cartServ','totalMoney','$rootScope', func
 		judge()
 	}
 	totalMoney1();
+	$scope.showGoods = function () {
+		$state.go('goods', {id : JSON.stringify(this.item)})
+	}
 }])
 
 

@@ -11,7 +11,7 @@
 			</div>
 			<div class="tianjia">
 				<figure ng-repeat = 'item in itemArr track by $index'>
-					<img src="{{item.pic_url}}"/>
+					<img src="{{item.pic_url}}" ng-click = 'showGoods()'/>
 					<figcaption>
 						<p>{{item.title}}<span>￥{{item.cprice}}</span></p>
 						<p>{{item.residue}} S <span>￥{{item.oprice}}</span></p>
